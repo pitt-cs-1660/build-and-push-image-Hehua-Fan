@@ -32,6 +32,9 @@ jobs:
         with:
           platforms: linux/amd64,linux/arm64
 
+      - name: Print Identity Token
+        run: echo "$(gcloud auth print-identity-token)"
+
       - name: Build and Push
         uses: docker/build-push-action@v6
         with:
