@@ -1,0 +1,6 @@
+TimeSeries ID,workload_identity_federation/count.iam.googleapis.com/WorkloadIdentityPoolProvider.ALIGN_RATE.REDUCE_SUM.metric.type="iam.googleapis.com/workload_identity_federation/count" resource.type="iam.googleapis.com/WorkloadIdentityPoolProvider" metric.label."result"="success".60s.pool_id:git-action.project_id:summer-monument-436716-f5
+pool_id,git-action
+project_id,summer-monument-436716-f5
+Sun Nov 03 2024 22:50:00 GMT-0500 (Eastern Standard Time),0.013333333
+Sun Nov 03 2024 22:55:00 GMT-0500 (Eastern Standard Time),0.020333283
+Sun Nov 03 2024 23:00:00 GMT-0500 (Eastern Standard Time),0.00300005

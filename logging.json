@@ -1,0 +1,4032 @@
+[
+  {
+    "insertId": "wrdzw1f145520",
+    "jsonPayload": {
+      "omitempty": null,
+      "message": "Scheduler - wake: [now 2024-10-31 17:55:51.001080321 +0000 UTC]",
+      "localTimestamp": "2024-10-31T17:55:51.0011Z"
+    },
+    "resource": {
+      "type": "gce_instance",
+      "labels": {
+        "instance_id": "1292593144085999743",
+        "zone": "us-west1-a",
+        "project_id": "summer-monument-436716-f5"
+      }
+    },
+    "timestamp": "2024-10-31T17:55:51.001181236Z",
+    "severity": "INFO",
+    "labels": {
+      "instance_name": "vm-class-1"
+    },
+    "logName": "projects/summer-monument-436716-f5/logs/GCEGuestAgent",
+    "sourceLocation": {
+      "file": "logger.go",
+      "line": "24",
+      "function": "github.com/GoogleCloudPlatform/guest-agent/google_guest_agent/scheduler.(*cronLogger).Info"
+    },
+    "receiveTimestamp": "2024-10-31T17:55:52.030755672Z"
+  },
+  {
+    "insertId": "wrdzw1f145521",
+    "jsonPayload": {
+      "omitempty": null,
+      "message": "Scheduler - run: [now 2024-10-31 17:55:51.001080321 +0000 UTC entry 1 next 2024-11-01 17:55:51 +0000 UTC]",
+      "localTimestamp": "2024-10-31T17:55:51.0012Z"
+    },
+    "resource": {
+      "type": "gce_instance",
+      "labels": {
+        "project_id": "summer-monument-436716-f5",
+        "zone": "us-west1-a",
+        "instance_id": "1292593144085999743"
+      }
+    },
+    "timestamp": "2024-10-31T17:55:51.001285981Z",
+    "severity": "INFO",
+    "labels": {
+      "instance_name": "vm-class-1"
+    },
+    "logName": "projects/summer-monument-436716-f5/logs/GCEGuestAgent",
+    "sourceLocation": {
+      "file": "logger.go",
+      "line": "24",
+      "function": "github.com/GoogleCloudPlatform/guest-agent/google_guest_agent/scheduler.(*cronLogger).Info"
+    },
+    "receiveTimestamp": "2024-10-31T17:55:52.030755672Z"
+  },
+  {
+    "insertId": "wrdzw1f145522",
+    "jsonPayload": {
+      "omitempty": null,
+      "localTimestamp": "2024-10-31T17:55:51.0013Z",
+      "message": "Invoking job \"telemetryJobID\""
+    },
+    "resource": {
+      "type": "gce_instance",
+      "labels": {
+        "instance_id": "1292593144085999743",
+        "project_id": "summer-monument-436716-f5",
+        "zone": "us-west1-a"
+      }
+    },
+    "timestamp": "2024-10-31T17:55:51.001333985Z",
+    "severity": "INFO",
+    "labels": {
+      "instance_name": "vm-class-1"
+    },
+    "logName": "projects/summer-monument-436716-f5/logs/GCEGuestAgent",
+    "sourceLocation": {
+      "file": "scheduler.go",
+      "line": "72",
+      "function": "github.com/GoogleCloudPlatform/guest-agent/google_guest_agent/scheduler.(*Scheduler).ScheduleJob.(*Scheduler).getFunc.func1"
+    },
+    "receiveTimestamp": "2024-10-31T17:55:52.030755672Z"
+  },
+  {
+    "insertId": "u0ruybe30e4y",
+    "jsonPayload": {
+      "firstReportTime": "2024-09-27T18:07:49.408765094Z",
+      "reportGroups": [
+        "VPC_NETWORK"
+      ],
+      "priority": "LOW",
+      "resourceName": "//compute.googleapis.com/projects/summer-monument-436716-f5",
+      "location": "global",
+      "ipUtilizationInfo": {
+        "subnetIpUtilization": [
+          {
+            "allocationRatio": 0.00024437927663734115,
+            "subnetUri": "//compute.googleapis.com/projects/summer-monument-436716-f5/regions/us-west1/subnetworks/default"
+          }
+        ]
+      },
+      "@type": "type.googleapis.com/google.cloud.networkanalyzer.logging.v1.Report",
+      "status": "ACTIVE",
+      "id": "summer-monument-436716-f5/ip_utilization/14862275474353810383",
+      "type": "INFO",
+      "causeCode": "IP_UTILIZATION_IP_ALLOCATION_SUMMARY"
+    },
+    "resource": {
+      "type": "networking.googleapis.com/Location",
+      "labels": {
+        "location": "global",
+        "project_id": "summer-monument-436716-f5"
+      }
+    },
+    "timestamp": "2024-10-31T18:07:49.315855764Z",
+    "logName": "projects/summer-monument-436716-f5/logs/networkanalyzer.googleapis.com%2Fanalyzer_reports",
+    "receiveTimestamp": "2024-10-31T18:07:50.219122242Z"
+  },
+  {
+    "insertId": "1y9jtgtf4xktc2",
+    "jsonPayload": {
+      "omitempty": null,
+      "localTimestamp": "2024-11-01T17:55:51.0008Z",
+      "message": "Scheduler - wake: [now 2024-11-01 17:55:51.000829252 +0000 UTC]"
+    },
+    "resource": {
+      "type": "gce_instance",
+      "labels": {
+        "project_id": "summer-monument-436716-f5",
+        "zone": "us-west1-a",
+        "instance_id": "1292593144085999743"
+      }
+    },
+    "timestamp": "2024-11-01T17:55:51.000954755Z",
+    "severity": "INFO",
+    "labels": {
+      "instance_name": "vm-class-1"
+    },
+    "logName": "projects/summer-monument-436716-f5/logs/GCEGuestAgent",
+    "sourceLocation": {
+      "file": "logger.go",
+      "line": "24",
+      "function": "github.com/GoogleCloudPlatform/guest-agent/google_guest_agent/scheduler.(*cronLogger).Info"
+    },
+    "receiveTimestamp": "2024-11-01T17:55:51.920340460Z"
+  },
+  {
+    "insertId": "1y9jtgtf4xktc3",
+    "jsonPayload": {
+      "message": "Scheduler - run: [now 2024-11-01 17:55:51.000829252 +0000 UTC entry 1 next 2024-11-02 17:55:51 +0000 UTC]",
+      "localTimestamp": "2024-11-01T17:55:51.0010Z",
+      "omitempty": null
+    },
+    "resource": {
+      "type": "gce_instance",
+      "labels": {
+        "instance_id": "1292593144085999743",
+        "zone": "us-west1-a",
+        "project_id": "summer-monument-436716-f5"
+      }
+    },
+    "timestamp": "2024-11-01T17:55:51.001062392Z",
+    "severity": "INFO",
+    "labels": {
+      "instance_name": "vm-class-1"
+    },
+    "logName": "projects/summer-monument-436716-f5/logs/GCEGuestAgent",
+    "sourceLocation": {
+      "file": "logger.go",
+      "line": "24",
+      "function": "github.com/GoogleCloudPlatform/guest-agent/google_guest_agent/scheduler.(*cronLogger).Info"
+    },
+    "receiveTimestamp": "2024-11-01T17:55:51.920340460Z"
+  },
+  {
+    "insertId": "1y9jtgtf4xktc4",
+    "jsonPayload": {
+      "localTimestamp": "2024-11-01T17:55:51.0010Z",
+      "message": "Invoking job \"telemetryJobID\"",
+      "omitempty": null
+    },
+    "resource": {
+      "type": "gce_instance",
+      "labels": {
+        "zone": "us-west1-a",
+        "project_id": "summer-monument-436716-f5",
+        "instance_id": "1292593144085999743"
+      }
+    },
+    "timestamp": "2024-11-01T17:55:51.001102027Z",
+    "severity": "INFO",
+    "labels": {
+      "instance_name": "vm-class-1"
+    },
+    "logName": "projects/summer-monument-436716-f5/logs/GCEGuestAgent",
+    "sourceLocation": {
+      "file": "scheduler.go",
+      "line": "72",
+      "function": "github.com/GoogleCloudPlatform/guest-agent/google_guest_agent/scheduler.(*Scheduler).ScheduleJob.(*Scheduler).getFunc.func1"
+    },
+    "receiveTimestamp": "2024-11-01T17:55:51.920340460Z"
+  },
+  {
+    "insertId": "xwqgsydrv5s",
+    "jsonPayload": {
+      "resourceName": "//compute.googleapis.com/projects/summer-monument-436716-f5",
+      "reportGroups": [
+        "VPC_NETWORK"
+      ],
+      "location": "global",
+      "ipUtilizationInfo": {
+        "subnetIpUtilization": [
+          {
+            "allocationRatio": 0.00024437927663734115,
+            "subnetUri": "//compute.googleapis.com/projects/summer-monument-436716-f5/regions/us-west1/subnetworks/default"
+          }
+        ]
+      },
+      "firstReportTime": "2024-09-27T18:07:49.408765094Z",
+      "id": "summer-monument-436716-f5/ip_utilization/14862275474353810383",
+      "status": "ACTIVE",
+      "type": "INFO",
+      "causeCode": "IP_UTILIZATION_IP_ALLOCATION_SUMMARY",
+      "priority": "LOW",
+      "@type": "type.googleapis.com/google.cloud.networkanalyzer.logging.v1.Report"
+    },
+    "resource": {
+      "type": "networking.googleapis.com/Location",
+      "labels": {
+        "location": "global",
+        "project_id": "summer-monument-436716-f5"
+      }
+    },
+    "timestamp": "2024-11-01T18:07:49.300021269Z",
+    "logName": "projects/summer-monument-436716-f5/logs/networkanalyzer.googleapis.com%2Fanalyzer_reports",
+    "receiveTimestamp": "2024-11-01T18:07:50.251411124Z"
+  },
+  {
+    "insertId": "1d5x037f8j3a2h",
+    "jsonPayload": {
+      "omitempty": null,
+      "localTimestamp": "2024-11-02T17:55:51.0009Z",
+      "message": "Scheduler - wake: [now 2024-11-02 17:55:51.00087335 +0000 UTC]"
+    },
+    "resource": {
+      "type": "gce_instance",
+      "labels": {
+        "zone": "us-west1-a",
+        "project_id": "summer-monument-436716-f5",
+        "instance_id": "1292593144085999743"
+      }
+    },
+    "timestamp": "2024-11-02T17:55:51.001019833Z",
+    "severity": "INFO",
+    "labels": {
+      "instance_name": "vm-class-1"
+    },
+    "logName": "projects/summer-monument-436716-f5/logs/GCEGuestAgent",
+    "sourceLocation": {
+      "file": "logger.go",
+      "line": "24",
+      "function": "github.com/GoogleCloudPlatform/guest-agent/google_guest_agent/scheduler.(*cronLogger).Info"
+    },
+    "receiveTimestamp": "2024-11-02T17:55:52.028813767Z"
+  },
+  {
+    "insertId": "1d5x037f8j3a2i",
+    "jsonPayload": {
+      "localTimestamp": "2024-11-02T17:55:51.0011Z",
+      "omitempty": null,
+      "message": "Scheduler - run: [now 2024-11-02 17:55:51.00087335 +0000 UTC entry 1 next 2024-11-03 17:55:51 +0000 UTC]"
+    },
+    "resource": {
+      "type": "gce_instance",
+      "labels": {
+        "project_id": "summer-monument-436716-f5",
+        "instance_id": "1292593144085999743",
+        "zone": "us-west1-a"
+      }
+    },
+    "timestamp": "2024-11-02T17:55:51.001129950Z",
+    "severity": "INFO",
+    "labels": {
+      "instance_name": "vm-class-1"
+    },
+    "logName": "projects/summer-monument-436716-f5/logs/GCEGuestAgent",
+    "sourceLocation": {
+      "file": "logger.go",
+      "line": "24",
+      "function": "github.com/GoogleCloudPlatform/guest-agent/google_guest_agent/scheduler.(*cronLogger).Info"
+    },
+    "receiveTimestamp": "2024-11-02T17:55:52.028813767Z"
+  },
+  {
+    "insertId": "1d5x037f8j3a2j",
+    "jsonPayload": {
+      "omitempty": null,
+      "localTimestamp": "2024-11-02T17:55:51.0011Z",
+      "message": "Invoking job \"telemetryJobID\""
+    },
+    "resource": {
+      "type": "gce_instance",
+      "labels": {
+        "instance_id": "1292593144085999743",
+        "zone": "us-west1-a",
+        "project_id": "summer-monument-436716-f5"
+      }
+    },
+    "timestamp": "2024-11-02T17:55:51.001170426Z",
+    "severity": "INFO",
+    "labels": {
+      "instance_name": "vm-class-1"
+    },
+    "logName": "projects/summer-monument-436716-f5/logs/GCEGuestAgent",
+    "sourceLocation": {
+      "file": "scheduler.go",
+      "line": "72",
+      "function": "github.com/GoogleCloudPlatform/guest-agent/google_guest_agent/scheduler.(*Scheduler).ScheduleJob.(*Scheduler).getFunc.func1"
+    },
+    "receiveTimestamp": "2024-11-02T17:55:52.028813767Z"
+  },
+  {
+    "insertId": "6o3fn2e10mtm",
+    "jsonPayload": {
+      "status": "ACTIVE",
+      "priority": "LOW",
+      "id": "summer-monument-436716-f5/ip_utilization/14862275474353810383",
+      "causeCode": "IP_UTILIZATION_IP_ALLOCATION_SUMMARY",
+      "type": "INFO",
+      "location": "global",
+      "reportGroups": [
+        "VPC_NETWORK"
+      ],
+      "resourceName": "//compute.googleapis.com/projects/summer-monument-436716-f5",
+      "ipUtilizationInfo": {
+        "subnetIpUtilization": [
+          {
+            "allocationRatio": 0.00024437927663734115,
+            "subnetUri": "//compute.googleapis.com/projects/summer-monument-436716-f5/regions/us-west1/subnetworks/default"
+          }
+        ]
+      },
+      "@type": "type.googleapis.com/google.cloud.networkanalyzer.logging.v1.Report",
+      "firstReportTime": "2024-09-27T18:07:49.408765094Z"
+    },
+    "resource": {
+      "type": "networking.googleapis.com/Location",
+      "labels": {
+        "project_id": "summer-monument-436716-f5",
+        "location": "global"
+      }
+    },
+    "timestamp": "2024-11-02T18:07:49.324065625Z",
+    "logName": "projects/summer-monument-436716-f5/logs/networkanalyzer.googleapis.com%2Fanalyzer_reports",
+    "receiveTimestamp": "2024-11-02T18:07:49.856283927Z"
+  },
+  {
+    "insertId": "2s3e8jfcb4ox8",
+    "jsonPayload": {
+      "localTimestamp": "2024-11-03T17:55:51.0005Z",
+      "omitempty": null,
+      "message": "Scheduler - wake: [now 2024-11-03 17:55:51.000442009 +0000 UTC]"
+    },
+    "resource": {
+      "type": "gce_instance",
+      "labels": {
+        "project_id": "summer-monument-436716-f5",
+        "zone": "us-west1-a",
+        "instance_id": "1292593144085999743"
+      }
+    },
+    "timestamp": "2024-11-03T17:55:51.000596728Z",
+    "severity": "INFO",
+    "labels": {
+      "instance_name": "vm-class-1"
+    },
+    "logName": "projects/summer-monument-436716-f5/logs/GCEGuestAgent",
+    "sourceLocation": {
+      "file": "logger.go",
+      "line": "24",
+      "function": "github.com/GoogleCloudPlatform/guest-agent/google_guest_agent/scheduler.(*cronLogger).Info"
+    },
+    "receiveTimestamp": "2024-11-03T17:55:52.030409423Z"
+  },
+  {
+    "insertId": "2s3e8jfcb4ox9",
+    "jsonPayload": {
+      "omitempty": null,
+      "message": "Scheduler - run: [now 2024-11-03 17:55:51.000442009 +0000 UTC entry 1 next 2024-11-04 17:55:51 +0000 UTC]",
+      "localTimestamp": "2024-11-03T17:55:51.0007Z"
+    },
+    "resource": {
+      "type": "gce_instance",
+      "labels": {
+        "instance_id": "1292593144085999743",
+        "zone": "us-west1-a",
+        "project_id": "summer-monument-436716-f5"
+      }
+    },
+    "timestamp": "2024-11-03T17:55:51.000754204Z",
+    "severity": "INFO",
+    "labels": {
+      "instance_name": "vm-class-1"
+    },
+    "logName": "projects/summer-monument-436716-f5/logs/GCEGuestAgent",
+    "sourceLocation": {
+      "file": "logger.go",
+      "line": "24",
+      "function": "github.com/GoogleCloudPlatform/guest-agent/google_guest_agent/scheduler.(*cronLogger).Info"
+    },
+    "receiveTimestamp": "2024-11-03T17:55:52.030409423Z"
+  },
+  {
+    "insertId": "2s3e8jfcb4oxa",
+    "jsonPayload": {
+      "message": "Invoking job \"telemetryJobID\"",
+      "localTimestamp": "2024-11-03T17:55:51.0007Z",
+      "omitempty": null
+    },
+    "resource": {
+      "type": "gce_instance",
+      "labels": {
+        "instance_id": "1292593144085999743",
+        "zone": "us-west1-a",
+        "project_id": "summer-monument-436716-f5"
+      }
+    },
+    "timestamp": "2024-11-03T17:55:51.000797664Z",
+    "severity": "INFO",
+    "labels": {
+      "instance_name": "vm-class-1"
+    },
+    "logName": "projects/summer-monument-436716-f5/logs/GCEGuestAgent",
+    "sourceLocation": {
+      "file": "scheduler.go",
+      "line": "72",
+      "function": "github.com/GoogleCloudPlatform/guest-agent/google_guest_agent/scheduler.(*Scheduler).ScheduleJob.(*Scheduler).getFunc.func1"
+    },
+    "receiveTimestamp": "2024-11-03T17:55:52.030409423Z"
+  },
+  {
+    "insertId": "1sfisage13d6n",
+    "jsonPayload": {
+      "@type": "type.googleapis.com/google.cloud.networkanalyzer.logging.v1.Report",
+      "firstReportTime": "2024-09-27T18:07:49.408765094Z",
+      "causeCode": "IP_UTILIZATION_IP_ALLOCATION_SUMMARY",
+      "priority": "LOW",
+      "status": "ACTIVE",
+      "id": "summer-monument-436716-f5/ip_utilization/14862275474353810383",
+      "location": "global",
+      "type": "INFO",
+      "ipUtilizationInfo": {
+        "subnetIpUtilization": [
+          {
+            "subnetUri": "//compute.googleapis.com/projects/summer-monument-436716-f5/regions/us-west1/subnetworks/default",
+            "allocationRatio": 0.00024437927663734115
+          }
+        ]
+      },
+      "resourceName": "//compute.googleapis.com/projects/summer-monument-436716-f5",
+      "reportGroups": [
+        "VPC_NETWORK"
+      ]
+    },
+    "resource": {
+      "type": "networking.googleapis.com/Location",
+      "labels": {
+        "location": "global",
+        "project_id": "summer-monument-436716-f5"
+      }
+    },
+    "timestamp": "2024-11-03T18:07:49.288994530Z",
+    "logName": "projects/summer-monument-436716-f5/logs/networkanalyzer.googleapis.com%2Fanalyzer_reports",
+    "receiveTimestamp": "2024-11-03T18:07:49.923461777Z"
+  },
+  {
+    "protoPayload": {
+      "@type": "type.googleapis.com/google.cloud.audit.AuditLog",
+      "authenticationInfo": {
+        "principalEmail": "forhheart5532@gmail.com",
+        "principalSubject": "user:forhheart5532@gmail.com"
+      },
+      "requestMetadata": {
+        "callerIp": "34.23.6.183",
+        "callerSuppliedUserAgent": "google-cloud-sdk gcloud/499.0.0 command/gcloud.artifacts.repositories.create invocation-id/65510e0c3f0944159e7d6f7f646cd95d environment/devshell environment-version/None client-os/LINUX client-os-ver/6.1.112 client-pltf-arch/x86_64 interactive/True from-script/False python/3.11.9 term/screen (Linux 6.1.112+),gzip(gfe)",
+        "requestAttributes": {},
+        "destinationAttributes": {}
+      },
+      "serviceName": "serviceusage.googleapis.com",
+      "methodName": "google.api.serviceusage.v1.ServiceUsage.EnableService",
+      "authorizationInfo": [
+        {
+          "resource": "projectnumbers/1027693462651/services/artifactregistry.googleapis.com",
+          "permission": "serviceusage.services.enable",
+          "granted": true,
+          "resourceAttributes": {},
+          "permissionType": "ADMIN_WRITE"
+        },
+        {
+          "resource": "services/artifactregistry.googleapis.com",
+          "permission": "servicemanagement.services.bind",
+          "granted": true,
+          "resourceAttributes": {},
+          "permissionType": "DATA_WRITE"
+        }
+      ],
+      "resourceName": "projects/summer-monument-436716-f5/services/artifactregistry.googleapis.com",
+      "request": {
+        "name": "projects/summer-monument-436716-f5/services/artifactregistry.googleapis.com",
+        "@type": "type.googleapis.com/google.api.serviceusage.v1.EnableServiceRequest"
+      }
+    },
+    "insertId": "xci7tddlkwj",
+    "resource": {
+      "type": "audited_resource",
+      "labels": {
+        "service": "serviceusage.googleapis.com",
+        "project_id": "summer-monument-436716-f5",
+        "method": "google.api.serviceusage.v1.ServiceUsage.EnableService"
+      }
+    },
+    "timestamp": "2024-11-03T23:59:03.071872Z",
+    "severity": "NOTICE",
+    "logName": "projects/summer-monument-436716-f5/logs/cloudaudit.googleapis.com%2Factivity",
+    "operation": {
+      "id": "operations/acat.p2-1027693462651-9a08c938-d23d-4776-b4ff-26e29428cdf5",
+      "producer": "serviceusage.googleapis.com",
+      "first": true
+    },
+    "receiveTimestamp": "2024-11-03T23:59:04.234692732Z"
+  },
+  {
+    "protoPayload": {
+      "@type": "type.googleapis.com/google.cloud.audit.AuditLog",
+      "status": {},
+      "authenticationInfo": {
+        "principalEmail": "forhheart5532@gmail.com",
+        "principalSubject": "user:forhheart5532@gmail.com"
+      },
+      "requestMetadata": {
+        "callerIp": "34.23.6.183",
+        "callerSuppliedUserAgent": "google-cloud-sdk gcloud/499.0.0 command/gcloud.artifacts.repositories.create invocation-id/65510e0c3f0944159e7d6f7f646cd95d environment/devshell environment-version/None client-os/LINUX client-os-ver/6.1.112 client-pltf-arch/x86_64 interactive/True from-script/False python/3.11.9 term/screen (Linux 6.1.112+),gzip(gfe)",
+        "requestAttributes": {},
+        "destinationAttributes": {}
+      },
+      "serviceName": "serviceusage.googleapis.com",
+      "methodName": "google.longrunning.Operations.GetOperation",
+      "authorizationInfo": [
+        {
+          "resource": "projectnumbers/1027693462651",
+          "permission": "serviceusage.services.enable",
+          "granted": true,
+          "resourceAttributes": {},
+          "permissionType": "ADMIN_WRITE"
+        },
+        {
+          "resource": "projectnumbers/1027693462651/operations/-",
+          "permission": "serviceusage.operations.get",
+          "granted": true,
+          "resourceAttributes": {},
+          "permissionType": "DATA_READ"
+        },
+        {
+          "resource": "projectnumbers/1027693462651",
+          "permission": "serviceusage.services.get",
+          "granted": true,
+          "resourceAttributes": {},
+          "permissionType": "DATA_READ"
+        }
+      ],
+      "resourceName": "projects/1027693462651/operations/acat.p2-1027693462651-9a08c938-d23d-4776-b4ff-26e29428cdf5"
+    },
+    "insertId": "eftvm8dg5tt",
+    "resource": {
+      "type": "audited_resource",
+      "labels": {
+        "method": "google.longrunning.Operations.GetOperation",
+        "project_id": "summer-monument-436716-f5",
+        "service": "serviceusage.googleapis.com"
+      }
+    },
+    "timestamp": "2024-11-03T23:59:03.651384Z",
+    "severity": "NOTICE",
+    "logName": "projects/summer-monument-436716-f5/logs/cloudaudit.googleapis.com%2Factivity",
+    "receiveTimestamp": "2024-11-03T23:59:03.932695862Z"
+  },
+  {
+    "protoPayload": {
+      "@type": "type.googleapis.com/google.cloud.audit.AuditLog",
+      "status": {},
+      "authenticationInfo": {
+        "principalEmail": "forhheart5532@gmail.com",
+        "principalSubject": "user:forhheart5532@gmail.com"
+      },
+      "requestMetadata": {
+        "callerIp": "34.23.6.183",
+        "callerSuppliedUserAgent": "google-cloud-sdk gcloud/499.0.0 command/gcloud.artifacts.repositories.create invocation-id/65510e0c3f0944159e7d6f7f646cd95d environment/devshell environment-version/None client-os/LINUX client-os-ver/6.1.112 client-pltf-arch/x86_64 interactive/True from-script/False python/3.11.9 term/screen (Linux 6.1.112+),gzip(gfe)",
+        "requestAttributes": {},
+        "destinationAttributes": {}
+      },
+      "serviceName": "serviceusage.googleapis.com",
+      "methodName": "google.api.serviceusage.v1.ServiceUsage.EnableService",
+      "authorizationInfo": [
+        {
+          "resource": "projectnumbers/1027693462651/services/artifactregistry.googleapis.com",
+          "permission": "serviceusage.services.enable",
+          "granted": true,
+          "resourceAttributes": {},
+          "permissionType": "ADMIN_WRITE"
+        },
+        {
+          "resource": "services/artifactregistry.googleapis.com",
+          "permission": "servicemanagement.services.bind",
+          "granted": true,
+          "resourceAttributes": {},
+          "permissionType": "DATA_WRITE"
+        }
+      ],
+      "resourceName": "projects/summer-monument-436716-f5/services/artifactregistry.googleapis.com",
+      "request": {
+        "name": "projects/summer-monument-436716-f5/services/artifactregistry.googleapis.com",
+        "@type": "type.googleapis.com/google.api.serviceusage.v1.EnableServiceRequest"
+      },
+      "response": {
+        "@type": "type.googleapis.com/google.api.serviceusage.v1.EnableServiceResponse",
+        "service": {
+          "parent": "projects/1027693462651",
+          "state": "ENABLED",
+          "name": "projects/1027693462651/services/artifactregistry.googleapis.com",
+          "config": {
+            "name": "artifactregistry.googleapis.com",
+            "title": "Artifact Registry API"
+          }
+        }
+      }
+    },
+    "insertId": "81ui08d37ji",
+    "resource": {
+      "type": "audited_resource",
+      "labels": {
+        "service": "serviceusage.googleapis.com",
+        "method": "google.api.serviceusage.v1.ServiceUsage.EnableService",
+        "project_id": "summer-monument-436716-f5"
+      }
+    },
+    "timestamp": "2024-11-03T23:59:05.760294715Z",
+    "severity": "NOTICE",
+    "logName": "projects/summer-monument-436716-f5/logs/cloudaudit.googleapis.com%2Factivity",
+    "operation": {
+      "id": "operations/acat.p2-1027693462651-9a08c938-d23d-4776-b4ff-26e29428cdf5",
+      "producer": "serviceusage.googleapis.com",
+      "last": true
+    },
+    "receiveTimestamp": "2024-11-03T23:59:05.760294715Z"
+  },
+  {
+    "protoPayload": {
+      "@type": "type.googleapis.com/google.cloud.audit.AuditLog",
+      "status": {},
+      "authenticationInfo": {
+        "principalEmail": "forhheart5532@gmail.com",
+        "principalSubject": "user:forhheart5532@gmail.com"
+      },
+      "requestMetadata": {
+        "callerIp": "34.23.6.183",
+        "callerSuppliedUserAgent": "google-cloud-sdk gcloud/499.0.0 command/gcloud.artifacts.repositories.create invocation-id/65510e0c3f0944159e7d6f7f646cd95d environment/devshell environment-version/None client-os/LINUX client-os-ver/6.1.112 client-pltf-arch/x86_64 interactive/True from-script/False python/3.11.9 term/screen (Linux 6.1.112+),gzip(gfe)",
+        "requestAttributes": {},
+        "destinationAttributes": {}
+      },
+      "serviceName": "serviceusage.googleapis.com",
+      "methodName": "google.longrunning.Operations.GetOperation",
+      "authorizationInfo": [
+        {
+          "resource": "projectnumbers/1027693462651",
+          "permission": "serviceusage.services.enable",
+          "granted": true,
+          "resourceAttributes": {},
+          "permissionType": "ADMIN_WRITE"
+        },
+        {
+          "resource": "projectnumbers/1027693462651/operations/-",
+          "permission": "serviceusage.operations.get",
+          "granted": true,
+          "resourceAttributes": {},
+          "permissionType": "DATA_READ"
+        },
+        {
+          "resource": "projectnumbers/1027693462651",
+          "permission": "serviceusage.services.get",
+          "granted": true,
+          "resourceAttributes": {},
+          "permissionType": "DATA_READ"
+        }
+      ],
+      "resourceName": "projects/1027693462651/operations/acat.p2-1027693462651-9a08c938-d23d-4776-b4ff-26e29428cdf5"
+    },
+    "insertId": "zte22qdknnh",
+    "resource": {
+      "type": "audited_resource",
+      "labels": {
+        "service": "serviceusage.googleapis.com",
+        "project_id": "summer-monument-436716-f5",
+        "method": "google.longrunning.Operations.GetOperation"
+      }
+    },
+    "timestamp": "2024-11-03T23:59:05.983757Z",
+    "severity": "NOTICE",
+    "logName": "projects/summer-monument-436716-f5/logs/cloudaudit.googleapis.com%2Factivity",
+    "receiveTimestamp": "2024-11-03T23:59:06.342538208Z"
+  },
+  {
+    "protoPayload": {
+      "@type": "type.googleapis.com/google.cloud.audit.AuditLog",
+      "authenticationInfo": {
+        "principalEmail": "forhheart5532@gmail.com",
+        "principalSubject": "user:forhheart5532@gmail.com"
+      },
+      "requestMetadata": {
+        "callerIp": "34.23.6.183",
+        "callerSuppliedUserAgent": "google-cloud-sdk gcloud/499.0.0 command/gcloud.artifacts.repositories.create invocation-id/65510e0c3f0944159e7d6f7f646cd95d environment/devshell environment-version/None client-os/LINUX client-os-ver/6.1.112 client-pltf-arch/x86_64 interactive/True from-script/False python/3.11.9 term/screen (Linux 6.1.112+),gzip(gfe),gzip(gfe)",
+        "requestAttributes": {
+          "time": "2024-11-03T23:59:08.531554973Z",
+          "auth": {}
+        },
+        "destinationAttributes": {}
+      },
+      "serviceName": "artifactregistry.googleapis.com",
+      "methodName": "google.devtools.artifactregistry.v1.ArtifactRegistry.CreateRepository",
+      "authorizationInfo": [
+        {
+          "resource": "projects/summer-monument-436716-f5/locations/us-central1",
+          "permission": "artifactregistry.repositories.create",
+          "granted": true,
+          "resourceAttributes": {},
+          "permissionType": "ADMIN_WRITE"
+        }
+      ],
+      "resourceName": "projects/summer-monument-436716-f5/locations/us-central1",
+      "request": {
+        "@type": "type.googleapis.com/google.devtools.artifactregistry.v1.CreateRepositoryRequest",
+        "repositoryId": "pitt-cs-1660-build-and-push-image-hehua-fan",
+        "repository": {
+          "name": "projects/summer-monument-436716-f5/locations/us-central1/repositories/pitt-cs-1660-build-and-push-image-hehua-fan",
+          "format": "DOCKER"
+        },
+        "parent": "projects/summer-monument-436716-f5/locations/us-central1"
+      },
+      "resourceLocation": {
+        "currentLocations": [
+          "us-central1"
+        ]
+      }
+    },
+    "insertId": "fjeq0bc5sw",
+    "resource": {
+      "type": "audited_resource",
+      "labels": {
+        "service": "artifactregistry.googleapis.com",
+        "project_id": "summer-monument-436716-f5",
+        "method": "google.devtools.artifactregistry.v1.ArtifactRegistry.CreateRepository"
+      }
+    },
+    "timestamp": "2024-11-03T23:59:08.518542911Z",
+    "severity": "NOTICE",
+    "logName": "projects/summer-monument-436716-f5/logs/cloudaudit.googleapis.com%2Factivity",
+    "operation": {
+      "id": "projects/summer-monument-436716-f5/locations/us-central1/operations/ff1cd2e3-e25e-424c-bc2a-2a03b0eb0bb2",
+      "producer": "artifactregistry.googleapis.com",
+      "first": true
+    },
+    "receiveTimestamp": "2024-11-03T23:59:08.629497118Z"
+  },
+  {
+    "protoPayload": {
+      "@type": "type.googleapis.com/google.cloud.audit.AuditLog",
+      "status": {},
+      "authenticationInfo": {
+        "principalEmail": "service-agent-manager@system.gserviceaccount.com"
+      },
+      "requestMetadata": {
+        "callerIp": "private",
+        "requestAttributes": {},
+        "destinationAttributes": {}
+      },
+      "serviceName": "cloudresourcemanager.googleapis.com",
+      "methodName": "SetIamPolicy",
+      "authorizationInfo": [
+        {
+          "resource": "projects/summer-monument-436716-f5",
+          "permission": "resourcemanager.projects.setIamPolicy",
+          "granted": true,
+          "resourceAttributes": {
+            "service": "cloudresourcemanager.googleapis.com",
+            "name": "projects/summer-monument-436716-f5",
+            "type": "cloudresourcemanager.googleapis.com/Project"
+          },
+          "permissionType": "ADMIN_WRITE"
+        },
+        {
+          "resource": "projects/summer-monument-436716-f5",
+          "permission": "resourcemanager.projects.setIamPolicy",
+          "granted": true,
+          "resourceAttributes": {
+            "service": "cloudresourcemanager.googleapis.com",
+            "name": "projects/summer-monument-436716-f5",
+            "type": "cloudresourcemanager.googleapis.com/Project"
+          },
+          "permissionType": "ADMIN_WRITE"
+        }
+      ],
+      "resourceName": "projects/summer-monument-436716-f5",
+      "serviceData": {
+        "@type": "type.googleapis.com/google.iam.v1.logging.AuditData",
+        "policyDelta": {
+          "bindingDeltas": [
+            {
+              "action": "ADD",
+              "role": "roles/artifactregistry.serviceAgent",
+              "member": "serviceAccount:service-1027693462651@gcp-sa-artifactregistry.iam.gserviceaccount.com"
+            }
+          ]
+        }
+      },
+      "request": {
+        "resource": "1027693462651",
+        "@type": "type.googleapis.com/google.iam.v1.SetIamPolicyRequest",
+        "policy": {
+          "bindings": [
+            {
+              "members": [
+                "serviceAccount:service-1027693462651@compute-system.iam.gserviceaccount.com"
+              ],
+              "role": "roles/compute.serviceAgent"
+            },
+            {
+              "members": [
+                "serviceAccount:1027693462651-compute@developer.gserviceaccount.com",
+                "serviceAccount:1027693462651@cloudservices.gserviceaccount.com"
+              ],
+              "role": "roles/editor"
+            },
+            {
+              "members": [
+                "serviceAccount:service-1027693462651@gcp-sa-networkmanagement.iam.gserviceaccount.com"
+              ],
+              "role": "roles/networkmanagement.serviceAgent"
+            },
+            {
+              "members": [
+                "user:forhheart5532@gmail.com"
+              ],
+              "role": "roles/owner"
+            },
+            {
+              "role": "roles/artifactregistry.serviceAgent",
+              "members": [
+                "serviceAccountId:117110134866049970057"
+              ]
+            }
+          ],
+          "etag": "BwYi9nqC1nk="
+        }
+      },
+      "response": {
+        "etag": "BwYmCvRCSKg=",
+        "@type": "type.googleapis.com/google.iam.v1.Policy",
+        "bindings": [
+          {
+            "role": "roles/artifactregistry.serviceAgent",
+            "members": [
+              "serviceAccount:service-1027693462651@gcp-sa-artifactregistry.iam.gserviceaccount.com"
+            ]
+          },
+          {
+            "role": "roles/compute.serviceAgent",
+            "members": [
+              "serviceAccount:service-1027693462651@compute-system.iam.gserviceaccount.com"
+            ]
+          },
+          {
+            "role": "roles/editor",
+            "members": [
+              "serviceAccount:1027693462651-compute@developer.gserviceaccount.com",
+              "serviceAccount:1027693462651@cloudservices.gserviceaccount.com"
+            ]
+          },
+          {
+            "members": [
+              "serviceAccount:service-1027693462651@gcp-sa-networkmanagement.iam.gserviceaccount.com"
+            ],
+            "role": "roles/networkmanagement.serviceAgent"
+          },
+          {
+            "members": [
+              "user:forhheart5532@gmail.com"
+            ],
+            "role": "roles/owner"
+          }
+        ]
+      }
+    },
+    "insertId": "3m8mzee6r6o6",
+    "resource": {
+      "type": "project",
+      "labels": {
+        "project_id": "summer-monument-436716-f5"
+      }
+    },
+    "timestamp": "2024-11-03T23:59:09.454513Z",
+    "severity": "NOTICE",
+    "logName": "projects/summer-monument-436716-f5/logs/cloudaudit.googleapis.com%2Factivity",
+    "receiveTimestamp": "2024-11-03T23:59:10.415770734Z"
+  },
+  {
+    "protoPayload": {
+      "@type": "type.googleapis.com/google.cloud.audit.AuditLog",
+      "status": {},
+      "authenticationInfo": {
+        "principalEmail": "forhheart5532@gmail.com",
+        "principalSubject": "user:forhheart5532@gmail.com"
+      },
+      "requestMetadata": {
+        "requestAttributes": {},
+        "destinationAttributes": {}
+      },
+      "serviceName": "artifactregistry.googleapis.com",
+      "methodName": "google.devtools.artifactregistry.v1.ArtifactRegistry.CreateRepository",
+      "resourceName": "projects/summer-monument-436716-f5/locations/us-central1/repositories/pitt-cs-1660-build-and-push-image-hehua-fan",
+      "response": {
+        "mode": "STANDARD_REPOSITORY",
+        "format": "DOCKER",
+        "vulnerabilityScanningConfig": {
+          "lastEnableTime": "2024-11-03T23:59:08.538356523Z"
+        },
+        "description": "Docker repository for CI/CD pipeline",
+        "sbomConfig": {},
+        "name": "projects/summer-monument-436716-f5/locations/us-central1/repositories/pitt-cs-1660-build-and-push-image-hehua-fan",
+        "@type": "type.googleapis.com/google.protobuf.Any"
+      }
+    },
+    "insertId": "18eq74td64qd",
+    "resource": {
+      "type": "audited_resource",
+      "labels": {
+        "project_id": "summer-monument-436716-f5",
+        "service": "artifactregistry.googleapis.com",
+        "method": "google.devtools.artifactregistry.v1.ArtifactRegistry.CreateRepository"
+      }
+    },
+    "timestamp": "2024-11-03T23:59:16.845361761Z",
+    "severity": "NOTICE",
+    "logName": "projects/summer-monument-436716-f5/logs/cloudaudit.googleapis.com%2Factivity",
+    "operation": {
+      "id": "projects/summer-monument-436716-f5/locations/us-central1/operations/ff1cd2e3-e25e-424c-bc2a-2a03b0eb0bb2",
+      "producer": "artifactregistry.googleapis.com",
+      "last": true
+    },
+    "receiveTimestamp": "2024-11-03T23:59:17.801089712Z"
+  },
+  {
+    "protoPayload": {
+      "@type": "type.googleapis.com/google.cloud.audit.AuditLog",
+      "authenticationInfo": {
+        "principalEmail": "forhheart5532@gmail.com"
+      },
+      "requestMetadata": {
+        "callerIp": "2601:547:782:fc0:1887:4fe7:9815:721",
+        "callerSuppliedUserAgent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/130.0.0.0 Safari/537.36,gzip(gfe),gzip(gfe)",
+        "requestAttributes": {},
+        "destinationAttributes": {}
+      },
+      "methodName": "google.api.serviceusage.v1.ServiceUsage.EnableService",
+      "authorizationInfo": [
+        {
+          "resource": "projectnumbers/1027693462651/services/iam.googleapis.com",
+          "permission": "serviceusage.services.enable",
+          "granted": true,
+          "resourceAttributes": {},
+          "permissionType": "ADMIN_WRITE"
+        },
+        {
+          "resource": "services/iam.googleapis.com",
+          "permission": "servicemanagement.services.bind",
+          "granted": true,
+          "resourceAttributes": {},
+          "permissionType": "DATA_WRITE"
+        }
+      ],
+      "resourceName": "projects/summer-monument-436716-f5/services/iam.googleapis.com"
+    },
+    "insertId": "14jejid2n7w",
+    "resource": {
+      "type": "audited_resource",
+      "labels": {
+        "project_id": "summer-monument-436716-f5",
+        "service": "",
+        "method": "google.api.serviceusage.v1.ServiceUsage.EnableService"
+      }
+    },
+    "timestamp": "2024-11-04T00:00:56.183757Z",
+    "severity": "NOTICE",
+    "logName": "projects/summer-monument-436716-f5/logs/cloudaudit.googleapis.com%2Factivity",
+    "operation": {
+      "id": "operations/acat.p2-1027693462651-8b27f1a7-928f-4b58-8ee6-732a54e0a699",
+      "producer": "serviceusage.googleapis.com",
+      "first": true
+    },
+    "receiveTimestamp": "2024-11-04T00:00:57.389702331Z"
+  },
+  {
+    "protoPayload": {
+      "@type": "type.googleapis.com/google.cloud.audit.AuditLog",
+      "authenticationInfo": {
+        "principalEmail": "forhheart5532@gmail.com"
+      },
+      "requestMetadata": {
+        "callerIp": "2601:547:782:fc0:1887:4fe7:9815:721",
+        "callerSuppliedUserAgent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/130.0.0.0 Safari/537.36,gzip(gfe),gzip(gfe)",
+        "requestAttributes": {},
+        "destinationAttributes": {}
+      },
+      "serviceName": "serviceusage.googleapis.com",
+      "methodName": "google.api.serviceusage.v1.ServiceUsage.EnableService",
+      "authorizationInfo": [
+        {
+          "resource": "projectnumbers/1027693462651/services/iam.googleapis.com",
+          "permission": "serviceusage.services.enable",
+          "granted": true,
+          "resourceAttributes": {},
+          "permissionType": "ADMIN_WRITE"
+        },
+        {
+          "resource": "services/iam.googleapis.com",
+          "permission": "servicemanagement.services.bind",
+          "granted": true,
+          "resourceAttributes": {},
+          "permissionType": "DATA_WRITE"
+        }
+      ],
+      "resourceName": "projects/summer-monument-436716-f5/services/iam.googleapis.com",
+      "request": {
+        "@type": "type.googleapis.com/google.api.serviceusage.v1.EnableServiceRequest",
+        "name": "projects/summer-monument-436716-f5/services/iam.googleapis.com"
+      }
+    },
+    "insertId": "4gej4odejns",
+    "resource": {
+      "type": "audited_resource",
+      "labels": {
+        "service": "serviceusage.googleapis.com",
+        "method": "google.api.serviceusage.v1.ServiceUsage.EnableService",
+        "project_id": "summer-monument-436716-f5"
+      }
+    },
+    "timestamp": "2024-11-04T00:00:56.183757Z",
+    "severity": "NOTICE",
+    "logName": "projects/summer-monument-436716-f5/logs/cloudaudit.googleapis.com%2Factivity",
+    "operation": {
+      "id": "operations/acat.p2-1027693462651-8b27f1a7-928f-4b58-8ee6-732a54e0a699",
+      "producer": "serviceusage.googleapis.com",
+      "first": true
+    },
+    "receiveTimestamp": "2024-11-04T00:00:57.205496383Z"
+  },
+  {
+    "protoPayload": {
+      "@type": "type.googleapis.com/google.cloud.audit.AuditLog",
+      "authenticationInfo": {
+        "principalEmail": "forhheart5532@gmail.com"
+      },
+      "requestMetadata": {
+        "callerIp": "2601:547:782:fc0:1887:4fe7:9815:721",
+        "callerSuppliedUserAgent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/130.0.0.0 Safari/537.36,gzip(gfe),gzip(gfe)",
+        "requestAttributes": {},
+        "destinationAttributes": {}
+      },
+      "serviceName": "serviceusage.googleapis.com",
+      "methodName": "google.api.serviceusage.v1.ServiceUsage.EnableService",
+      "authorizationInfo": [
+        {
+          "resource": "projectnumbers/1027693462651/services/cloudresourcemanager.googleapis.com",
+          "permission": "serviceusage.services.enable",
+          "granted": true,
+          "resourceAttributes": {},
+          "permissionType": "ADMIN_WRITE"
+        },
+        {
+          "resource": "services/cloudresourcemanager.googleapis.com",
+          "permission": "servicemanagement.services.bind",
+          "granted": true,
+          "resourceAttributes": {},
+          "permissionType": "DATA_WRITE"
+        }
+      ],
+      "resourceName": "projects/summer-monument-436716-f5/services/cloudresourcemanager.googleapis.com",
+      "request": {
+        "@type": "type.googleapis.com/google.api.serviceusage.v1.EnableServiceRequest",
+        "name": "projects/summer-monument-436716-f5/services/cloudresourcemanager.googleapis.com"
+      }
+    },
+    "insertId": "6o2bqxdn6sg",
+    "resource": {
+      "type": "audited_resource",
+      "labels": {
+        "project_id": "summer-monument-436716-f5",
+        "method": "google.api.serviceusage.v1.ServiceUsage.EnableService",
+        "service": "serviceusage.googleapis.com"
+      }
+    },
+    "timestamp": "2024-11-04T00:00:56.202Z",
+    "severity": "NOTICE",
+    "logName": "projects/summer-monument-436716-f5/logs/cloudaudit.googleapis.com%2Factivity",
+    "operation": {
+      "id": "operations/acat.p2-1027693462651-bb010f8d-fbd2-49ce-9945-df0518a69186",
+      "producer": "serviceusage.googleapis.com",
+      "first": true
+    },
+    "receiveTimestamp": "2024-11-04T00:00:58.036207635Z"
+  },
+  {
+    "protoPayload": {
+      "@type": "type.googleapis.com/google.cloud.audit.AuditLog",
+      "authenticationInfo": {
+        "principalEmail": "forhheart5532@gmail.com"
+      },
+      "requestMetadata": {
+        "callerIp": "2601:547:782:fc0:1887:4fe7:9815:721",
+        "callerSuppliedUserAgent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/130.0.0.0 Safari/537.36,gzip(gfe),gzip(gfe)",
+        "requestAttributes": {},
+        "destinationAttributes": {}
+      },
+      "serviceName": "serviceusage.googleapis.com",
+      "methodName": "google.api.serviceusage.v1.ServiceUsage.EnableService",
+      "authorizationInfo": [
+        {
+          "resource": "projectnumbers/1027693462651/services/iamcredentials.googleapis.com",
+          "permission": "serviceusage.services.enable",
+          "granted": true,
+          "resourceAttributes": {},
+          "permissionType": "ADMIN_WRITE"
+        },
+        {
+          "resource": "services/iamcredentials.googleapis.com",
+          "permission": "servicemanagement.services.bind",
+          "granted": true,
+          "resourceAttributes": {},
+          "permissionType": "DATA_WRITE"
+        }
+      ],
+      "resourceName": "projects/summer-monument-436716-f5/services/iamcredentials.googleapis.com",
+      "request": {
+        "name": "projects/summer-monument-436716-f5/services/iamcredentials.googleapis.com",
+        "@type": "type.googleapis.com/google.api.serviceusage.v1.EnableServiceRequest"
+      }
+    },
+    "insertId": "1hvrvkudrxz8",
+    "resource": {
+      "type": "audited_resource",
+      "labels": {
+        "project_id": "summer-monument-436716-f5",
+        "service": "serviceusage.googleapis.com",
+        "method": "google.api.serviceusage.v1.ServiceUsage.EnableService"
+      }
+    },
+    "timestamp": "2024-11-04T00:00:56.202558Z",
+    "severity": "NOTICE",
+    "logName": "projects/summer-monument-436716-f5/logs/cloudaudit.googleapis.com%2Factivity",
+    "operation": {
+      "id": "operations/acat.p2-1027693462651-82accaff-e88c-427a-805b-0422b00817dd",
+      "producer": "serviceusage.googleapis.com",
+      "first": true
+    },
+    "receiveTimestamp": "2024-11-04T00:00:57.239427589Z"
+  },
+  {
+    "protoPayload": {
+      "@type": "type.googleapis.com/google.cloud.audit.AuditLog",
+      "authenticationInfo": {
+        "principalEmail": "forhheart5532@gmail.com"
+      },
+      "requestMetadata": {
+        "callerIp": "2601:547:782:fc0:1887:4fe7:9815:721",
+        "callerSuppliedUserAgent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/130.0.0.0 Safari/537.36,gzip(gfe),gzip(gfe)",
+        "requestAttributes": {},
+        "destinationAttributes": {}
+      },
+      "serviceName": "serviceusage.googleapis.com",
+      "methodName": "google.api.serviceusage.v1.ServiceUsage.EnableService",
+      "authorizationInfo": [
+        {
+          "resource": "projectnumbers/1027693462651/services/sts.googleapis.com",
+          "permission": "serviceusage.services.enable",
+          "granted": true,
+          "resourceAttributes": {},
+          "permissionType": "ADMIN_WRITE"
+        },
+        {
+          "resource": "services/sts.googleapis.com",
+          "permission": "servicemanagement.services.bind",
+          "granted": true,
+          "resourceAttributes": {},
+          "permissionType": "DATA_WRITE"
+        }
+      ],
+      "resourceName": "projects/summer-monument-436716-f5/services/sts.googleapis.com",
+      "request": {
+        "@type": "type.googleapis.com/google.api.serviceusage.v1.EnableServiceRequest",
+        "name": "projects/summer-monument-436716-f5/services/sts.googleapis.com"
+      }
+    },
+    "insertId": "sn4poedmkd9",
+    "resource": {
+      "type": "audited_resource",
+      "labels": {
+        "method": "google.api.serviceusage.v1.ServiceUsage.EnableService",
+        "project_id": "summer-monument-436716-f5",
+        "service": "serviceusage.googleapis.com"
+      }
+    },
+    "timestamp": "2024-11-04T00:00:56.205315Z",
+    "severity": "NOTICE",
+    "logName": "projects/summer-monument-436716-f5/logs/cloudaudit.googleapis.com%2Factivity",
+    "operation": {
+      "id": "operations/acat.p2-1027693462651-10610c66-8b43-4210-b044-23f939195e3e",
+      "producer": "serviceusage.googleapis.com",
+      "first": true
+    },
+    "receiveTimestamp": "2024-11-04T00:00:57.805293039Z"
+  },
+  {
+    "protoPayload": {
+      "@type": "type.googleapis.com/google.cloud.audit.AuditLog",
+      "status": {},
+      "authenticationInfo": {
+        "principalEmail": "forhheart5532@gmail.com"
+      },
+      "requestMetadata": {
+        "callerIp": "2601:547:782:fc0:1887:4fe7:9815:721",
+        "callerSuppliedUserAgent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/130.0.0.0 Safari/537.36,gzip(gfe),gzip(gfe)",
+        "requestAttributes": {},
+        "destinationAttributes": {}
+      },
+      "serviceName": "serviceusage.googleapis.com",
+      "methodName": "google.longrunning.Operations.GetOperation",
+      "authorizationInfo": [
+        {
+          "resource": "projectnumbers/1027693462651",
+          "permission": "serviceusage.services.enable",
+          "granted": true,
+          "resourceAttributes": {},
+          "permissionType": "ADMIN_WRITE"
+        },
+        {
+          "resource": "projectnumbers/1027693462651/operations/-",
+          "permission": "serviceusage.operations.get",
+          "granted": true,
+          "resourceAttributes": {},
+          "permissionType": "DATA_READ"
+        },
+        {
+          "resource": "projectnumbers/1027693462651",
+          "permission": "serviceusage.services.get",
+          "granted": true,
+          "resourceAttributes": {},
+          "permissionType": "DATA_READ"
+        }
+      ],
+      "resourceName": "projects/1027693462651/operations/acat.p2-1027693462651-8b27f1a7-928f-4b58-8ee6-732a54e0a699"
+    },
+    "insertId": "6o2bqxdn6sf",
+    "resource": {
+      "type": "audited_resource",
+      "labels": {
+        "method": "google.longrunning.Operations.GetOperation",
+        "project_id": "summer-monument-436716-f5",
+        "service": "serviceusage.googleapis.com"
+      }
+    },
+    "timestamp": "2024-11-04T00:00:56.786432Z",
+    "severity": "NOTICE",
+    "logName": "projects/summer-monument-436716-f5/logs/cloudaudit.googleapis.com%2Factivity",
+    "receiveTimestamp": "2024-11-04T00:00:58.036207635Z"
+  },
+  {
+    "protoPayload": {
+      "@type": "type.googleapis.com/google.cloud.audit.AuditLog",
+      "status": {},
+      "authenticationInfo": {
+        "principalEmail": "forhheart5532@gmail.com"
+      },
+      "requestMetadata": {
+        "callerIp": "2601:547:782:fc0:1887:4fe7:9815:721",
+        "callerSuppliedUserAgent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/130.0.0.0 Safari/537.36,gzip(gfe),gzip(gfe)",
+        "requestAttributes": {},
+        "destinationAttributes": {}
+      },
+      "serviceName": "serviceusage.googleapis.com",
+      "methodName": "google.longrunning.Operations.GetOperation",
+      "authorizationInfo": [
+        {
+          "resource": "projectnumbers/1027693462651",
+          "permission": "serviceusage.services.enable",
+          "granted": true,
+          "resourceAttributes": {},
+          "permissionType": "ADMIN_WRITE"
+        },
+        {
+          "resource": "projectnumbers/1027693462651/operations/-",
+          "permission": "serviceusage.operations.get",
+          "granted": true,
+          "resourceAttributes": {},
+          "permissionType": "DATA_READ"
+        },
+        {
+          "resource": "projectnumbers/1027693462651",
+          "permission": "serviceusage.services.get",
+          "granted": true,
+          "resourceAttributes": {},
+          "permissionType": "DATA_READ"
+        }
+      ],
+      "resourceName": "projects/1027693462651/operations/acat.p2-1027693462651-82accaff-e88c-427a-805b-0422b00817dd"
+    },
+    "insertId": "1pmcuy5dlxqp",
+    "resource": {
+      "type": "audited_resource",
+      "labels": {
+        "method": "google.longrunning.Operations.GetOperation",
+        "service": "serviceusage.googleapis.com",
+        "project_id": "summer-monument-436716-f5"
+      }
+    },
+    "timestamp": "2024-11-04T00:00:56.954453Z",
+    "severity": "NOTICE",
+    "logName": "projects/summer-monument-436716-f5/logs/cloudaudit.googleapis.com%2Factivity",
+    "receiveTimestamp": "2024-11-04T00:00:57.748707611Z"
+  },
+  {
+    "protoPayload": {
+      "@type": "type.googleapis.com/google.cloud.audit.AuditLog",
+      "status": {},
+      "authenticationInfo": {
+        "principalEmail": "forhheart5532@gmail.com"
+      },
+      "requestMetadata": {
+        "callerIp": "2601:547:782:fc0:1887:4fe7:9815:721",
+        "callerSuppliedUserAgent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/130.0.0.0 Safari/537.36,gzip(gfe),gzip(gfe)",
+        "requestAttributes": {},
+        "destinationAttributes": {}
+      },
+      "serviceName": "serviceusage.googleapis.com",
+      "methodName": "google.longrunning.Operations.GetOperation",
+      "authorizationInfo": [
+        {
+          "resource": "projectnumbers/1027693462651",
+          "permission": "serviceusage.services.enable",
+          "granted": true,
+          "resourceAttributes": {},
+          "permissionType": "ADMIN_WRITE"
+        },
+        {
+          "resource": "projectnumbers/1027693462651/operations/-",
+          "permission": "serviceusage.operations.get",
+          "granted": true,
+          "resourceAttributes": {},
+          "permissionType": "DATA_READ"
+        },
+        {
+          "resource": "projectnumbers/1027693462651",
+          "permission": "serviceusage.services.get",
+          "granted": true,
+          "resourceAttributes": {},
+          "permissionType": "DATA_READ"
+        }
+      ],
+      "resourceName": "projects/1027693462651/operations/acat.p2-1027693462651-10610c66-8b43-4210-b044-23f939195e3e"
+    },
+    "insertId": "1kd7l21dqyen",
+    "resource": {
+      "type": "audited_resource",
+      "labels": {
+        "method": "google.longrunning.Operations.GetOperation",
+        "project_id": "summer-monument-436716-f5",
+        "service": "serviceusage.googleapis.com"
+      }
+    },
+    "timestamp": "2024-11-04T00:00:56.989919Z",
+    "severity": "NOTICE",
+    "logName": "projects/summer-monument-436716-f5/logs/cloudaudit.googleapis.com%2Factivity",
+    "receiveTimestamp": "2024-11-04T00:00:58.040748117Z"
+  },
+  {
+    "protoPayload": {
+      "@type": "type.googleapis.com/google.cloud.audit.AuditLog",
+      "status": {},
+      "authenticationInfo": {
+        "principalEmail": "forhheart5532@gmail.com"
+      },
+      "requestMetadata": {
+        "callerIp": "2601:547:782:fc0:1887:4fe7:9815:721",
+        "callerSuppliedUserAgent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/130.0.0.0 Safari/537.36,gzip(gfe),gzip(gfe)",
+        "requestAttributes": {},
+        "destinationAttributes": {}
+      },
+      "serviceName": "serviceusage.googleapis.com",
+      "methodName": "google.longrunning.Operations.GetOperation",
+      "authorizationInfo": [
+        {
+          "resource": "projectnumbers/1027693462651",
+          "permission": "serviceusage.services.enable",
+          "granted": true,
+          "resourceAttributes": {},
+          "permissionType": "ADMIN_WRITE"
+        },
+        {
+          "resource": "projectnumbers/1027693462651/operations/-",
+          "permission": "serviceusage.operations.get",
+          "granted": true,
+          "resourceAttributes": {},
+          "permissionType": "DATA_READ"
+        },
+        {
+          "resource": "projectnumbers/1027693462651",
+          "permission": "serviceusage.services.get",
+          "granted": true,
+          "resourceAttributes": {},
+          "permissionType": "DATA_READ"
+        }
+      ],
+      "resourceName": "projects/1027693462651/operations/acat.p2-1027693462651-bb010f8d-fbd2-49ce-9945-df0518a69186"
+    },
+    "insertId": "l3xej3dhtju",
+    "resource": {
+      "type": "audited_resource",
+      "labels": {
+        "project_id": "summer-monument-436716-f5",
+        "method": "google.longrunning.Operations.GetOperation",
+        "service": "serviceusage.googleapis.com"
+      }
+    },
+    "timestamp": "2024-11-04T00:00:57.214273Z",
+    "severity": "NOTICE",
+    "logName": "projects/summer-monument-436716-f5/logs/cloudaudit.googleapis.com%2Factivity",
+    "receiveTimestamp": "2024-11-04T00:00:57.618510590Z"
+  },
+  {
+    "protoPayload": {
+      "@type": "type.googleapis.com/google.cloud.audit.AuditLog",
+      "status": {},
+      "authenticationInfo": {
+        "principalEmail": "forhheart5532@gmail.com"
+      },
+      "requestMetadata": {
+        "callerIp": "2601:547:782:fc0:1887:4fe7:9815:721",
+        "callerSuppliedUserAgent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/130.0.0.0 Safari/537.36,gzip(gfe),gzip(gfe)"
+      },
+      "serviceName": "serviceusage.googleapis.com",
+      "methodName": "google.api.serviceusage.v1.ServiceUsage.EnableService",
+      "authorizationInfo": [
+        {
+          "resource": "projectnumbers/1027693462651/services/iam.googleapis.com",
+          "permission": "serviceusage.services.enable",
+          "granted": true,
+          "permissionType": "ADMIN_WRITE"
+        },
+        {
+          "resource": "services/iam.googleapis.com",
+          "permission": "servicemanagement.services.bind",
+          "granted": true,
+          "permissionType": "DATA_WRITE"
+        }
+      ],
+      "resourceName": "projects/summer-monument-436716-f5/services/iam.googleapis.com",
+      "request": {
+        "name": "projects/summer-monument-436716-f5/services/iam.googleapis.com",
+        "@type": "type.googleapis.com/google.api.serviceusage.v1.EnableServiceRequest"
+      },
+      "response": {
+        "service": {
+          "name": "projects/1027693462651/services/iam.googleapis.com",
+          "config": {
+            "name": "iam.googleapis.com",
+            "title": "Identity and Access Management (IAM) API"
+          },
+          "state": "ENABLED",
+          "parent": "projects/1027693462651"
+        },
+        "@type": "type.googleapis.com/google.api.serviceusage.v1.EnableServiceResponse"
+      }
+    },
+    "insertId": "-qumtvyd765o",
+    "resource": {
+      "type": "audited_resource",
+      "labels": {
+        "service": "serviceusage.googleapis.com",
+        "project_id": "summer-monument-436716-f5",
+        "method": "google.api.serviceusage.v1.ServiceUsage.EnableService"
+      }
+    },
+    "timestamp": "2024-11-04T00:00:58.695157591Z",
+    "severity": "NOTICE",
+    "logName": "projects/summer-monument-436716-f5/logs/cloudaudit.googleapis.com%2Factivity",
+    "operation": {
+      "id": "operations/acat.p2-1027693462651-8b27f1a7-928f-4b58-8ee6-732a54e0a699",
+      "producer": "serviceusage.googleapis.com",
+      "last": true
+    },
+    "receiveTimestamp": "2024-11-04T00:00:58.695157591Z"
+  },
+  {
+    "protoPayload": {
+      "@type": "type.googleapis.com/google.cloud.audit.AuditLog",
+      "status": {},
+      "authenticationInfo": {
+        "principalEmail": "forhheart5532@gmail.com"
+      },
+      "requestMetadata": {
+        "callerIp": "2601:547:782:fc0:1887:4fe7:9815:721",
+        "callerSuppliedUserAgent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/130.0.0.0 Safari/537.36,gzip(gfe),gzip(gfe)"
+      },
+      "serviceName": "serviceusage.googleapis.com",
+      "methodName": "google.api.serviceusage.v1.ServiceUsage.EnableService",
+      "authorizationInfo": [
+        {
+          "resource": "projectnumbers/1027693462651/services/iam.googleapis.com",
+          "permission": "serviceusage.services.enable",
+          "granted": true,
+          "permissionType": "ADMIN_WRITE"
+        },
+        {
+          "resource": "services/iam.googleapis.com",
+          "permission": "servicemanagement.services.bind",
+          "granted": true,
+          "permissionType": "DATA_WRITE"
+        }
+      ],
+      "resourceName": "projects/summer-monument-436716-f5/services/iam.googleapis.com",
+      "request": {
+        "name": "projects/summer-monument-436716-f5/services/iam.googleapis.com",
+        "@type": "type.googleapis.com/google.api.serviceusage.v1.EnableServiceRequest"
+      },
+      "response": {
+        "status": "ENABLED",
+        "services": [
+          "iam.googleapis.com",
+          "iamcredentials.googleapis.com"
+        ],
+        "@type": "type.googleapis.com/google.api.tenant.apis.shared.activation.CrossLoggingResponse"
+      }
+    },
+    "insertId": "-qumtvyd765q",
+    "resource": {
+      "type": "audited_resource",
+      "labels": {
+        "service": "serviceusage.googleapis.com",
+        "method": "google.api.serviceusage.v1.ServiceUsage.EnableService",
+        "project_id": "summer-monument-436716-f5"
+      }
+    },
+    "timestamp": "2024-11-04T00:00:58.695157591Z",
+    "severity": "NOTICE",
+    "logName": "projects/summer-monument-436716-f5/logs/cloudaudit.googleapis.com%2Factivity",
+    "operation": {
+      "id": "operations/acat.p2-1027693462651-8b27f1a7-928f-4b58-8ee6-732a54e0a699",
+      "producer": "serviceusage.googleapis.com",
+      "last": true
+    },
+    "receiveTimestamp": "2024-11-04T00:00:58.695157591Z"
+  },
+  {
+    "protoPayload": {
+      "@type": "type.googleapis.com/google.cloud.audit.AuditLog",
+      "status": {},
+      "authenticationInfo": {
+        "principalEmail": "forhheart5532@gmail.com"
+      },
+      "requestMetadata": {
+        "callerIp": "2601:547:782:fc0:1887:4fe7:9815:721",
+        "callerSuppliedUserAgent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/130.0.0.0 Safari/537.36,gzip(gfe),gzip(gfe)"
+      },
+      "serviceName": "serviceusage.googleapis.com",
+      "methodName": "google.api.serviceusage.v1.ServiceUsage.EnableService",
+      "authorizationInfo": [
+        {
+          "resource": "projectnumbers/1027693462651/services/iamcredentials.googleapis.com",
+          "permission": "serviceusage.services.enable",
+          "granted": true,
+          "permissionType": "ADMIN_WRITE"
+        },
+        {
+          "resource": "services/iamcredentials.googleapis.com",
+          "permission": "servicemanagement.services.bind",
+          "granted": true,
+          "permissionType": "DATA_WRITE"
+        }
+      ],
+      "resourceName": "projects/summer-monument-436716-f5/services/iamcredentials.googleapis.com",
+      "request": {
+        "name": "projects/summer-monument-436716-f5/services/iamcredentials.googleapis.com",
+        "@type": "type.googleapis.com/google.api.serviceusage.v1.EnableServiceRequest"
+      },
+      "response": {
+        "service": {
+          "name": "projects/1027693462651/services/iamcredentials.googleapis.com",
+          "config": {
+            "name": "iamcredentials.googleapis.com",
+            "title": "IAM Service Account Credentials API"
+          },
+          "state": "ENABLED",
+          "parent": "projects/1027693462651"
+        },
+        "@type": "type.googleapis.com/google.api.serviceusage.v1.EnableServiceResponse"
+      }
+    },
+    "insertId": "-tol43adidxq",
+    "resource": {
+      "type": "audited_resource",
+      "labels": {
+        "method": "google.api.serviceusage.v1.ServiceUsage.EnableService",
+        "project_id": "summer-monument-436716-f5",
+        "service": "serviceusage.googleapis.com"
+      }
+    },
+    "timestamp": "2024-11-04T00:00:58.958577473Z",
+    "severity": "NOTICE",
+    "logName": "projects/summer-monument-436716-f5/logs/cloudaudit.googleapis.com%2Factivity",
+    "operation": {
+      "id": "operations/acat.p2-1027693462651-82accaff-e88c-427a-805b-0422b00817dd",
+      "producer": "serviceusage.googleapis.com",
+      "last": true
+    },
+    "receiveTimestamp": "2024-11-04T00:00:58.958577473Z"
+  },
+  {
+    "protoPayload": {
+      "@type": "type.googleapis.com/google.cloud.audit.AuditLog",
+      "status": {},
+      "authenticationInfo": {
+        "principalEmail": "forhheart5532@gmail.com"
+      },
+      "requestMetadata": {
+        "callerIp": "2601:547:782:fc0:1887:4fe7:9815:721",
+        "callerSuppliedUserAgent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/130.0.0.0 Safari/537.36,gzip(gfe),gzip(gfe)"
+      },
+      "serviceName": "serviceusage.googleapis.com",
+      "methodName": "google.api.serviceusage.v1.ServiceUsage.EnableService",
+      "authorizationInfo": [
+        {
+          "resource": "projectnumbers/1027693462651/services/sts.googleapis.com",
+          "permission": "serviceusage.services.enable",
+          "granted": true,
+          "permissionType": "ADMIN_WRITE"
+        },
+        {
+          "resource": "services/sts.googleapis.com",
+          "permission": "servicemanagement.services.bind",
+          "granted": true,
+          "permissionType": "DATA_WRITE"
+        }
+      ],
+      "resourceName": "projects/summer-monument-436716-f5/services/sts.googleapis.com",
+      "request": {
+        "name": "projects/summer-monument-436716-f5/services/sts.googleapis.com",
+        "@type": "type.googleapis.com/google.api.serviceusage.v1.EnableServiceRequest"
+      },
+      "response": {
+        "service": {
+          "name": "projects/1027693462651/services/sts.googleapis.com",
+          "config": {
+            "name": "sts.googleapis.com",
+            "title": "Security Token Service API"
+          },
+          "state": "ENABLED",
+          "parent": "projects/1027693462651"
+        },
+        "@type": "type.googleapis.com/google.api.serviceusage.v1.EnableServiceResponse"
+      }
+    },
+    "insertId": "hrw6kcdjisc",
+    "resource": {
+      "type": "audited_resource",
+      "labels": {
+        "service": "serviceusage.googleapis.com",
+        "method": "google.api.serviceusage.v1.ServiceUsage.EnableService",
+        "project_id": "summer-monument-436716-f5"
+      }
+    },
+    "timestamp": "2024-11-04T00:00:59.051321197Z",
+    "severity": "NOTICE",
+    "logName": "projects/summer-monument-436716-f5/logs/cloudaudit.googleapis.com%2Factivity",
+    "operation": {
+      "id": "operations/acat.p2-1027693462651-10610c66-8b43-4210-b044-23f939195e3e",
+      "producer": "serviceusage.googleapis.com",
+      "last": true
+    },
+    "receiveTimestamp": "2024-11-04T00:00:59.051321197Z"
+  },
+  {
+    "protoPayload": {
+      "@type": "type.googleapis.com/google.cloud.audit.AuditLog",
+      "status": {},
+      "authenticationInfo": {
+        "principalEmail": "forhheart5532@gmail.com"
+      },
+      "requestMetadata": {
+        "callerIp": "2601:547:782:fc0:1887:4fe7:9815:721",
+        "callerSuppliedUserAgent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/130.0.0.0 Safari/537.36,gzip(gfe),gzip(gfe)"
+      },
+      "serviceName": "serviceusage.googleapis.com",
+      "methodName": "google.api.serviceusage.v1.ServiceUsage.EnableService",
+      "authorizationInfo": [
+        {
+          "resource": "projectnumbers/1027693462651/services/cloudresourcemanager.googleapis.com",
+          "permission": "serviceusage.services.enable",
+          "granted": true,
+          "permissionType": "ADMIN_WRITE"
+        },
+        {
+          "resource": "services/cloudresourcemanager.googleapis.com",
+          "permission": "servicemanagement.services.bind",
+          "granted": true,
+          "permissionType": "DATA_WRITE"
+        }
+      ],
+      "resourceName": "projects/summer-monument-436716-f5/services/cloudresourcemanager.googleapis.com",
+      "request": {
+        "name": "projects/summer-monument-436716-f5/services/cloudresourcemanager.googleapis.com",
+        "@type": "type.googleapis.com/google.api.serviceusage.v1.EnableServiceRequest"
+      },
+      "response": {
+        "service": {
+          "name": "projects/1027693462651/services/cloudresourcemanager.googleapis.com",
+          "config": {
+            "name": "cloudresourcemanager.googleapis.com",
+            "title": "Cloud Resource Manager API"
+          },
+          "state": "ENABLED",
+          "parent": "projects/1027693462651"
+        },
+        "@type": "type.googleapis.com/google.api.serviceusage.v1.EnableServiceResponse"
+      }
+    },
+    "insertId": "-gcrkqgdfgck",
+    "resource": {
+      "type": "audited_resource",
+      "labels": {
+        "service": "serviceusage.googleapis.com",
+        "method": "google.api.serviceusage.v1.ServiceUsage.EnableService",
+        "project_id": "summer-monument-436716-f5"
+      }
+    },
+    "timestamp": "2024-11-04T00:00:59.292127792Z",
+    "severity": "NOTICE",
+    "logName": "projects/summer-monument-436716-f5/logs/cloudaudit.googleapis.com%2Factivity",
+    "operation": {
+      "id": "operations/acat.p2-1027693462651-bb010f8d-fbd2-49ce-9945-df0518a69186",
+      "producer": "serviceusage.googleapis.com",
+      "last": true
+    },
+    "receiveTimestamp": "2024-11-04T00:00:59.292127792Z"
+  },
+  {
+    "protoPayload": {
+      "@type": "type.googleapis.com/google.cloud.audit.AuditLog",
+      "status": {},
+      "authenticationInfo": {
+        "principalEmail": "forhheart5532@gmail.com"
+      },
+      "requestMetadata": {
+        "callerIp": "2601:547:782:fc0:1887:4fe7:9815:721",
+        "callerSuppliedUserAgent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/130.0.0.0 Safari/537.36,gzip(gfe),gzip(gfe)",
+        "requestAttributes": {},
+        "destinationAttributes": {}
+      },
+      "serviceName": "serviceusage.googleapis.com",
+      "methodName": "google.longrunning.Operations.GetOperation",
+      "authorizationInfo": [
+        {
+          "resource": "projectnumbers/1027693462651",
+          "permission": "serviceusage.services.enable",
+          "granted": true,
+          "resourceAttributes": {},
+          "permissionType": "ADMIN_WRITE"
+        },
+        {
+          "resource": "projectnumbers/1027693462651/operations/-",
+          "permission": "serviceusage.operations.get",
+          "granted": true,
+          "resourceAttributes": {},
+          "permissionType": "DATA_READ"
+        },
+        {
+          "resource": "projectnumbers/1027693462651",
+          "permission": "serviceusage.services.get",
+          "granted": true,
+          "resourceAttributes": {},
+          "permissionType": "DATA_READ"
+        }
+      ],
+      "resourceName": "projects/1027693462651/operations/acat.p2-1027693462651-8b27f1a7-928f-4b58-8ee6-732a54e0a699"
+    },
+    "insertId": "xci7tddll4m",
+    "resource": {
+      "type": "audited_resource",
+      "labels": {
+        "service": "serviceusage.googleapis.com",
+        "project_id": "summer-monument-436716-f5",
+        "method": "google.longrunning.Operations.GetOperation"
+      }
+    },
+    "timestamp": "2024-11-04T00:01:00.030583Z",
+    "severity": "NOTICE",
+    "logName": "projects/summer-monument-436716-f5/logs/cloudaudit.googleapis.com%2Factivity",
+    "receiveTimestamp": "2024-11-04T00:01:00.240955487Z"
+  },
+  {
+    "protoPayload": {
+      "@type": "type.googleapis.com/google.cloud.audit.AuditLog",
+      "status": {},
+      "authenticationInfo": {
+        "principalEmail": "forhheart5532@gmail.com"
+      },
+      "requestMetadata": {
+        "callerIp": "2601:547:782:fc0:1887:4fe7:9815:721",
+        "callerSuppliedUserAgent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/130.0.0.0 Safari/537.36,gzip(gfe),gzip(gfe)",
+        "requestAttributes": {},
+        "destinationAttributes": {}
+      },
+      "serviceName": "serviceusage.googleapis.com",
+      "methodName": "google.longrunning.Operations.GetOperation",
+      "authorizationInfo": [
+        {
+          "resource": "projectnumbers/1027693462651",
+          "permission": "serviceusage.services.enable",
+          "granted": true,
+          "resourceAttributes": {},
+          "permissionType": "ADMIN_WRITE"
+        },
+        {
+          "resource": "projectnumbers/1027693462651/operations/-",
+          "permission": "serviceusage.operations.get",
+          "granted": true,
+          "resourceAttributes": {},
+          "permissionType": "DATA_READ"
+        },
+        {
+          "resource": "projectnumbers/1027693462651",
+          "permission": "serviceusage.services.get",
+          "granted": true,
+          "resourceAttributes": {},
+          "permissionType": "DATA_READ"
+        }
+      ],
+      "resourceName": "projects/1027693462651/operations/acat.p2-1027693462651-82accaff-e88c-427a-805b-0422b00817dd"
+    },
+    "insertId": "9gcz8xdqnug",
+    "resource": {
+      "type": "audited_resource",
+      "labels": {
+        "method": "google.longrunning.Operations.GetOperation",
+        "project_id": "summer-monument-436716-f5",
+        "service": "serviceusage.googleapis.com"
+      }
+    },
+    "timestamp": "2024-11-04T00:01:00.192515Z",
+    "severity": "NOTICE",
+    "logName": "projects/summer-monument-436716-f5/logs/cloudaudit.googleapis.com%2Factivity",
+    "receiveTimestamp": "2024-11-04T00:01:00.704279886Z"
+  },
+  {
+    "protoPayload": {
+      "@type": "type.googleapis.com/google.cloud.audit.AuditLog",
+      "status": {},
+      "authenticationInfo": {
+        "principalEmail": "forhheart5532@gmail.com"
+      },
+      "requestMetadata": {
+        "callerIp": "2601:547:782:fc0:1887:4fe7:9815:721",
+        "callerSuppliedUserAgent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/130.0.0.0 Safari/537.36,gzip(gfe),gzip(gfe)",
+        "requestAttributes": {},
+        "destinationAttributes": {}
+      },
+      "serviceName": "serviceusage.googleapis.com",
+      "methodName": "google.longrunning.Operations.GetOperation",
+      "authorizationInfo": [
+        {
+          "resource": "projectnumbers/1027693462651",
+          "permission": "serviceusage.services.enable",
+          "granted": true,
+          "resourceAttributes": {},
+          "permissionType": "ADMIN_WRITE"
+        },
+        {
+          "resource": "projectnumbers/1027693462651/operations/-",
+          "permission": "serviceusage.operations.get",
+          "granted": true,
+          "resourceAttributes": {},
+          "permissionType": "DATA_READ"
+        },
+        {
+          "resource": "projectnumbers/1027693462651",
+          "permission": "serviceusage.services.get",
+          "granted": true,
+          "resourceAttributes": {},
+          "permissionType": "DATA_READ"
+        }
+      ],
+      "resourceName": "projects/1027693462651/operations/acat.p2-1027693462651-10610c66-8b43-4210-b044-23f939195e3e"
+    },
+    "insertId": "970af1dooig",
+    "resource": {
+      "type": "audited_resource",
+      "labels": {
+        "project_id": "summer-monument-436716-f5",
+        "service": "serviceusage.googleapis.com",
+        "method": "google.longrunning.Operations.GetOperation"
+      }
+    },
+    "timestamp": "2024-11-04T00:01:00.206961Z",
+    "severity": "NOTICE",
+    "logName": "projects/summer-monument-436716-f5/logs/cloudaudit.googleapis.com%2Factivity",
+    "receiveTimestamp": "2024-11-04T00:01:00.321856477Z"
+  },
+  {
+    "protoPayload": {
+      "@type": "type.googleapis.com/google.cloud.audit.AuditLog",
+      "status": {},
+      "authenticationInfo": {
+        "principalEmail": "forhheart5532@gmail.com"
+      },
+      "requestMetadata": {
+        "callerIp": "2601:547:782:fc0:1887:4fe7:9815:721",
+        "callerSuppliedUserAgent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/130.0.0.0 Safari/537.36,gzip(gfe),gzip(gfe)",
+        "requestAttributes": {},
+        "destinationAttributes": {}
+      },
+      "serviceName": "serviceusage.googleapis.com",
+      "methodName": "google.longrunning.Operations.GetOperation",
+      "authorizationInfo": [
+        {
+          "resource": "projectnumbers/1027693462651",
+          "permission": "serviceusage.services.enable",
+          "granted": true,
+          "resourceAttributes": {},
+          "permissionType": "ADMIN_WRITE"
+        },
+        {
+          "resource": "projectnumbers/1027693462651/operations/-",
+          "permission": "serviceusage.operations.get",
+          "granted": true,
+          "resourceAttributes": {},
+          "permissionType": "DATA_READ"
+        },
+        {
+          "resource": "projectnumbers/1027693462651",
+          "permission": "serviceusage.services.get",
+          "granted": true,
+          "resourceAttributes": {},
+          "permissionType": "DATA_READ"
+        }
+      ],
+      "resourceName": "projects/1027693462651/operations/acat.p2-1027693462651-bb010f8d-fbd2-49ce-9945-df0518a69186"
+    },
+    "insertId": "6o2bqxdn6ss",
+    "resource": {
+      "type": "audited_resource",
+      "labels": {
+        "service": "serviceusage.googleapis.com",
+        "method": "google.longrunning.Operations.GetOperation",
+        "project_id": "summer-monument-436716-f5"
+      }
+    },
+    "timestamp": "2024-11-04T00:01:00.487379Z",
+    "severity": "NOTICE",
+    "logName": "projects/summer-monument-436716-f5/logs/cloudaudit.googleapis.com%2Factivity",
+    "receiveTimestamp": "2024-11-04T00:01:00.935090769Z"
+  },
+  {
+    "protoPayload": {
+      "@type": "type.googleapis.com/google.cloud.audit.AuditLog",
+      "authenticationInfo": {
+        "principalEmail": "forhheart5532@gmail.com",
+        "principalSubject": "user:forhheart5532@gmail.com"
+      },
+      "requestMetadata": {
+        "callerIp": "2601:547:782:fc0:1887:4fe7:9815:721",
+        "callerSuppliedUserAgent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/130.0.0.0 Safari/537.36,gzip(gfe)",
+        "requestAttributes": {
+          "time": "2024-11-04T00:07:32.157213798Z",
+          "auth": {}
+        },
+        "destinationAttributes": {}
+      },
+      "serviceName": "iam.googleapis.com",
+      "methodName": "google.iam.v1.WorkloadIdentityPools.CreateWorkloadIdentityPool",
+      "authorizationInfo": [
+        {
+          "resource": "projects/summer-monument-436716-f5/locations/global",
+          "permission": "iam.workloadIdentityPools.create",
+          "granted": true,
+          "resourceAttributes": {},
+          "permissionType": "ADMIN_WRITE"
+        }
+      ],
+      "resourceName": "projects/summer-monument-436716-f5/locations/global",
+      "request": {
+        "workloadIdentityPoolId": "pitt-cs-1660-git-actions-pool",
+        "workloadIdentityPool": {
+          "displayName": "GitHub-Actions-Workload-Pool",
+          "description": "",
+          "disabled": false
+        },
+        "@type": "type.googleapis.com/google.iam.v1.CreateWorkloadIdentityPoolRequest",
+        "parent": "projects/summer-monument-436716-f5/locations/global"
+      },
+      "resourceLocation": {
+        "currentLocations": [
+          "global"
+        ]
+      }
+    },
+    "insertId": "n1ylxfdlq8y",
+    "resource": {
+      "type": "audited_resource",
+      "labels": {
+        "method": "google.iam.v1.WorkloadIdentityPools.CreateWorkloadIdentityPool",
+        "service": "iam.googleapis.com",
+        "project_id": "summer-monument-436716-f5"
+      }
+    },
+    "timestamp": "2024-11-04T00:07:32.147752895Z",
+    "severity": "NOTICE",
+    "logName": "projects/summer-monument-436716-f5/logs/cloudaudit.googleapis.com%2Factivity",
+    "operation": {
+      "id": "projects/1027693462651/locations/global/workloadIdentityPools/pitt-cs-1660-git-actions-pool/operations/bigarrfauc4qmegq3wezqaq000000000",
+      "producer": "iam.googleapis.com",
+      "first": true
+    },
+    "receiveTimestamp": "2024-11-04T00:07:33.346957393Z"
+  },
+  {
+    "protoPayload": {
+      "@type": "type.googleapis.com/google.cloud.audit.AuditLog",
+      "authenticationInfo": {
+        "principalEmail": "forhheart5532@gmail.com",
+        "principalSubject": "user:forhheart5532@gmail.com"
+      },
+      "requestMetadata": {
+        "requestAttributes": {},
+        "destinationAttributes": {}
+      },
+      "serviceName": "iam.googleapis.com",
+      "methodName": "google.iam.v1.WorkloadIdentityPools.CreateWorkloadIdentityPool",
+      "resourceName": "projects/summer-monument-436716-f5/locations/global",
+      "response": {
+        "@type": "type.googleapis.com/google.longrunning.Operation",
+        "name": "projects/1027693462651/locations/global/workloadIdentityPools/pitt-cs-1660-git-actions-pool/operations/bigarrfauc4qmegq3wezqaq000000000"
+      }
+    },
+    "insertId": "7ir8h8d1eh2",
+    "resource": {
+      "type": "audited_resource",
+      "labels": {
+        "method": "google.iam.v1.WorkloadIdentityPools.CreateWorkloadIdentityPool",
+        "project_id": "summer-monument-436716-f5",
+        "service": "iam.googleapis.com"
+      }
+    },
+    "timestamp": "2024-11-04T00:07:32.587996Z",
+    "severity": "NOTICE",
+    "logName": "projects/summer-monument-436716-f5/logs/cloudaudit.googleapis.com%2Factivity",
+    "operation": {
+      "id": "projects/1027693462651/locations/global/workloadIdentityPools/pitt-cs-1660-git-actions-pool/operations/bigarrfauc4qmegq3wezqaq000000000",
+      "producer": "iam.googleapis.com",
+      "last": true
+    },
+    "receiveTimestamp": "2024-11-04T00:07:33.319433111Z"
+  },
+  {
+    "protoPayload": {
+      "@type": "type.googleapis.com/google.cloud.audit.AuditLog",
+      "status": {
+        "code": 3,
+        "message": "The attribute condition must reference one of the provider's claims. For more information, see https://cloud.google.com/iam/docs/workload-identity-federation-with-deployment-pipelines#conditions"
+      },
+      "authenticationInfo": {
+        "principalEmail": "forhheart5532@gmail.com",
+        "principalSubject": "user:forhheart5532@gmail.com"
+      },
+      "requestMetadata": {
+        "callerIp": "2601:547:782:fc0:1887:4fe7:9815:721",
+        "callerSuppliedUserAgent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/130.0.0.0 Safari/537.36,gzip(gfe)",
+        "requestAttributes": {
+          "time": "2024-11-04T00:07:32.829978031Z",
+          "auth": {}
+        },
+        "destinationAttributes": {}
+      },
+      "serviceName": "iam.googleapis.com",
+      "methodName": "google.iam.v1.WorkloadIdentityPools.CreateWorkloadIdentityPoolProvider",
+      "authorizationInfo": [
+        {
+          "resource": "projects/summer-monument-436716-f5/locations/global/workloadIdentityPools/pitt-cs-1660-git-actions-pool",
+          "permission": "iam.workloadIdentityPoolProviders.create",
+          "granted": true,
+          "resourceAttributes": {},
+          "permissionType": "ADMIN_WRITE"
+        }
+      ],
+      "resourceName": "projects/summer-monument-436716-f5/locations/global/workloadIdentityPools/pitt-cs-1660-git-actions-pool",
+      "request": {
+        "@type": "type.googleapis.com/google.iam.v1.CreateWorkloadIdentityPoolProviderRequest",
+        "workloadIdentityPoolProviderId": "pitt-cs-1660-actions-provider",
+        "parent": "projects/summer-monument-436716-f5/locations/global/workloadIdentityPools/pitt-cs-1660-git-actions-pool",
+        "workloadIdentityPoolProvider": {
+          "disabled": false,
+          "oidc": {
+            "issuerUri": "https://token.actions.githubusercontent.com"
+          },
+          "displayName": "GitHub-Actions-Provider",
+          "attributeMapping": {
+            "google.subject": "assertion.sub"
+          },
+          "attributeCondition": ""
+        }
+      },
+      "resourceLocation": {
+        "currentLocations": [
+          "global"
+        ]
+      }
+    },
+    "insertId": "5uomi9dlo8p",
+    "resource": {
+      "type": "audited_resource",
+      "labels": {
+        "project_id": "summer-monument-436716-f5",
+        "service": "iam.googleapis.com",
+        "method": "google.iam.v1.WorkloadIdentityPools.CreateWorkloadIdentityPoolProvider"
+      }
+    },
+    "timestamp": "2024-11-04T00:07:32.813975844Z",
+    "severity": "ERROR",
+    "logName": "projects/summer-monument-436716-f5/logs/cloudaudit.googleapis.com%2Factivity",
+    "receiveTimestamp": "2024-11-04T00:07:33.023155702Z"
+  },
+  {
+    "protoPayload": {
+      "@type": "type.googleapis.com/google.cloud.audit.AuditLog",
+      "status": {
+        "code": 3,
+        "message": "The attribute condition must reference one of the provider's claims. For more information, see https://cloud.google.com/iam/docs/workload-identity-federation-with-deployment-pipelines#conditions"
+      },
+      "authenticationInfo": {
+        "principalEmail": "forhheart5532@gmail.com",
+        "principalSubject": "user:forhheart5532@gmail.com"
+      },
+      "requestMetadata": {
+        "callerIp": "2601:547:782:fc0:1887:4fe7:9815:721",
+        "callerSuppliedUserAgent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/130.0.0.0 Safari/537.36,gzip(gfe)",
+        "requestAttributes": {
+          "time": "2024-11-04T00:13:14.419721181Z",
+          "auth": {}
+        },
+        "destinationAttributes": {}
+      },
+      "serviceName": "iam.googleapis.com",
+      "methodName": "google.iam.v1.WorkloadIdentityPools.CreateWorkloadIdentityPoolProvider",
+      "authorizationInfo": [
+        {
+          "resource": "projects/summer-monument-436716-f5/locations/global/workloadIdentityPools/pitt-cs-1660-git-actions-pool",
+          "permission": "iam.workloadIdentityPoolProviders.create",
+          "granted": true,
+          "resourceAttributes": {},
+          "permissionType": "ADMIN_WRITE"
+        }
+      ],
+      "resourceName": "projects/summer-monument-436716-f5/locations/global/workloadIdentityPools/pitt-cs-1660-git-actions-pool",
+      "request": {
+        "@type": "type.googleapis.com/google.iam.v1.CreateWorkloadIdentityPoolProviderRequest",
+        "workloadIdentityPoolProviderId": "pitt-cs-1660-actions-provider",
+        "workloadIdentityPoolProvider": {
+          "oidc": {
+            "issuerUri": "https://token.actions.githubusercontent.com"
+          },
+          "disabled": false,
+          "displayName": "GitHub-Actions-Provider",
+          "attributeMapping": {
+            "google.subject": "assertion.sub == \"repo:pitt-cs-1660/build-and-push-image-Hehua-Fan:ref:refs/heads/main\""
+          },
+          "attributeCondition": ""
+        },
+        "parent": "projects/summer-monument-436716-f5/locations/global/workloadIdentityPools/pitt-cs-1660-git-actions-pool"
+      },
+      "resourceLocation": {
+        "currentLocations": [
+          "global"
+        ]
+      }
+    },
+    "insertId": "w8xhawdjms1",
+    "resource": {
+      "type": "audited_resource",
+      "labels": {
+        "project_id": "summer-monument-436716-f5",
+        "method": "google.iam.v1.WorkloadIdentityPools.CreateWorkloadIdentityPoolProvider",
+        "service": "iam.googleapis.com"
+      }
+    },
+    "timestamp": "2024-11-04T00:13:14.406068554Z",
+    "severity": "ERROR",
+    "logName": "projects/summer-monument-436716-f5/logs/cloudaudit.googleapis.com%2Factivity",
+    "receiveTimestamp": "2024-11-04T00:13:14.557772703Z"
+  },
+  {
+    "protoPayload": {
+      "@type": "type.googleapis.com/google.cloud.audit.AuditLog",
+      "status": {
+        "code": 3,
+        "message": "The attribute condition must reference one of the provider's claims. For more information, see https://cloud.google.com/iam/docs/workload-identity-federation-with-deployment-pipelines#conditions"
+      },
+      "authenticationInfo": {
+        "principalEmail": "forhheart5532@gmail.com",
+        "principalSubject": "user:forhheart5532@gmail.com"
+      },
+      "requestMetadata": {
+        "callerIp": "2601:547:782:fc0:1887:4fe7:9815:721",
+        "callerSuppliedUserAgent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/130.0.0.0 Safari/537.36,gzip(gfe)",
+        "requestAttributes": {
+          "time": "2024-11-04T00:15:01.877224078Z",
+          "auth": {}
+        },
+        "destinationAttributes": {}
+      },
+      "serviceName": "iam.googleapis.com",
+      "methodName": "google.iam.v1.WorkloadIdentityPools.CreateWorkloadIdentityPoolProvider",
+      "authorizationInfo": [
+        {
+          "resource": "projects/summer-monument-436716-f5/locations/global/workloadIdentityPools/pitt-cs-1660-git-actions-pool",
+          "permission": "iam.workloadIdentityPoolProviders.create",
+          "granted": true,
+          "resourceAttributes": {},
+          "permissionType": "ADMIN_WRITE"
+        }
+      ],
+      "resourceName": "projects/summer-monument-436716-f5/locations/global/workloadIdentityPools/pitt-cs-1660-git-actions-pool",
+      "request": {
+        "@type": "type.googleapis.com/google.iam.v1.CreateWorkloadIdentityPoolProviderRequest",
+        "workloadIdentityPoolProviderId": "pitt-cs-1660-actions-provider",
+        "workloadIdentityPoolProvider": {
+          "displayName": "GitHub-Actions-Provider",
+          "attributeCondition": "",
+          "oidc": {
+            "issuerUri": "https://token.actions.githubusercontent.com"
+          },
+          "attributeMapping": {
+            "google.subject": "\"repo:pitt-cs-1660/build-and-push-image-Hehua-Fan:ref:refs/heads/main\""
+          },
+          "disabled": false
+        },
+        "parent": "projects/summer-monument-436716-f5/locations/global/workloadIdentityPools/pitt-cs-1660-git-actions-pool"
+      },
+      "resourceLocation": {
+        "currentLocations": [
+          "global"
+        ]
+      }
+    },
+    "insertId": "o5ewspdjz13",
+    "resource": {
+      "type": "audited_resource",
+      "labels": {
+        "method": "google.iam.v1.WorkloadIdentityPools.CreateWorkloadIdentityPoolProvider",
+        "project_id": "summer-monument-436716-f5",
+        "service": "iam.googleapis.com"
+      }
+    },
+    "timestamp": "2024-11-04T00:15:01.853876151Z",
+    "severity": "ERROR",
+    "logName": "projects/summer-monument-436716-f5/logs/cloudaudit.googleapis.com%2Factivity",
+    "receiveTimestamp": "2024-11-04T00:15:02.222724720Z"
+  },
+  {
+    "protoPayload": {
+      "@type": "type.googleapis.com/google.cloud.audit.AuditLog",
+      "status": {
+        "code": 3,
+        "message": "Invalid attribute condition. [ERROR 'ERROR: <expression>:1:14: token recognition error at: '=\"'\n | assertion.sub=\"repo:pitt-cs-1660/build-and-push-image-Hehua-Fan:ref:refs/heads/main\"\n | .............^' at 13, ERROR 'ERROR: <expression>:1:16: mismatched input 'repo' expecting {<EOF>, '==', '!=', 'in', '<', '<=', '>=', '>', '&&', '||', '[', '.', '-', '?', '+', '*', '/', '%%'}\n | assertion.sub=\"repo:pitt-cs-1660/build-and-push-image-Hehua-Fan:ref:refs/heads/main\"\n | ...............^' at 15, ERROR 'ERROR: <expression>:1:84: token recognition error at: '\"'\n | assertion.sub=\"repo:pitt-cs-1660/build-and-push-image-Hehua-Fan:ref:refs/heads/main\"\n | ...................................................................................^' at 83]"
+      },
+      "authenticationInfo": {
+        "principalEmail": "forhheart5532@gmail.com",
+        "principalSubject": "user:forhheart5532@gmail.com"
+      },
+      "requestMetadata": {
+        "callerIp": "2601:547:782:fc0:1887:4fe7:9815:721",
+        "callerSuppliedUserAgent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/130.0.0.0 Safari/537.36,gzip(gfe)",
+        "requestAttributes": {
+          "time": "2024-11-04T00:15:54.420557087Z",
+          "auth": {}
+        },
+        "destinationAttributes": {}
+      },
+      "serviceName": "iam.googleapis.com",
+      "methodName": "google.iam.v1.WorkloadIdentityPools.CreateWorkloadIdentityPoolProvider",
+      "authorizationInfo": [
+        {
+          "resource": "projects/summer-monument-436716-f5/locations/global/workloadIdentityPools/pitt-cs-1660-git-actions-pool",
+          "permission": "iam.workloadIdentityPoolProviders.create",
+          "granted": true,
+          "resourceAttributes": {},
+          "permissionType": "ADMIN_WRITE"
+        }
+      ],
+      "resourceName": "projects/summer-monument-436716-f5/locations/global/workloadIdentityPools/pitt-cs-1660-git-actions-pool",
+      "request": {
+        "parent": "projects/summer-monument-436716-f5/locations/global/workloadIdentityPools/pitt-cs-1660-git-actions-pool",
+        "workloadIdentityPoolProviderId": "pitt-cs-1660-actions-provider",
+        "@type": "type.googleapis.com/google.iam.v1.CreateWorkloadIdentityPoolProviderRequest",
+        "workloadIdentityPoolProvider": {
+          "attributeMapping": {
+            "google.subject": "assertion.sub"
+          },
+          "oidc": {
+            "issuerUri": "https://token.actions.githubusercontent.com"
+          },
+          "displayName": "GitHub-Actions-Provider",
+          "disabled": false,
+          "attributeCondition": "assertion.sub=\"repo:pitt-cs-1660/build-and-push-image-Hehua-Fan:ref:refs/heads/main\""
+        }
+      },
+      "resourceLocation": {
+        "currentLocations": [
+          "global"
+        ]
+      }
+    },
+    "insertId": "1y90j3pdml42",
+    "resource": {
+      "type": "audited_resource",
+      "labels": {
+        "method": "google.iam.v1.WorkloadIdentityPools.CreateWorkloadIdentityPoolProvider",
+        "service": "iam.googleapis.com",
+        "project_id": "summer-monument-436716-f5"
+      }
+    },
+    "timestamp": "2024-11-04T00:15:54.400505288Z",
+    "severity": "ERROR",
+    "logName": "projects/summer-monument-436716-f5/logs/cloudaudit.googleapis.com%2Factivity",
+    "receiveTimestamp": "2024-11-04T00:15:54.579204784Z"
+  },
+  {
+    "protoPayload": {
+      "@type": "type.googleapis.com/google.cloud.audit.AuditLog",
+      "status": {
+        "code": 3,
+        "message": "Invalid attribute condition. [ERROR 'ERROR: <expression>:1:14: token recognition error at: '=\"'\n | assertion.sub=\"repo:pitt-cs-1660/build-and-push-image-Hehua-Fan:ref:refs/heads/main\"\n | .............^' at 13, ERROR 'ERROR: <expression>:1:16: mismatched input 'repo' expecting {<EOF>, '==', '!=', 'in', '<', '<=', '>=', '>', '&&', '||', '[', '.', '-', '?', '+', '*', '/', '%%'}\n | assertion.sub=\"repo:pitt-cs-1660/build-and-push-image-Hehua-Fan:ref:refs/heads/main\"\n | ...............^' at 15, ERROR 'ERROR: <expression>:1:84: token recognition error at: '\"'\n | assertion.sub=\"repo:pitt-cs-1660/build-and-push-image-Hehua-Fan:ref:refs/heads/main\"\n | ...................................................................................^' at 83]"
+      },
+      "authenticationInfo": {
+        "principalEmail": "forhheart5532@gmail.com",
+        "principalSubject": "user:forhheart5532@gmail.com"
+      },
+      "requestMetadata": {
+        "callerIp": "2601:547:782:fc0:1887:4fe7:9815:721",
+        "callerSuppliedUserAgent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/130.0.0.0 Safari/537.36,gzip(gfe)",
+        "requestAttributes": {
+          "time": "2024-11-04T00:16:14.356217255Z",
+          "auth": {}
+        },
+        "destinationAttributes": {}
+      },
+      "serviceName": "iam.googleapis.com",
+      "methodName": "google.iam.v1.WorkloadIdentityPools.CreateWorkloadIdentityPoolProvider",
+      "authorizationInfo": [
+        {
+          "resource": "projects/summer-monument-436716-f5/locations/global/workloadIdentityPools/pitt-cs-1660-git-actions-pool",
+          "permission": "iam.workloadIdentityPoolProviders.create",
+          "granted": true,
+          "resourceAttributes": {},
+          "permissionType": "ADMIN_WRITE"
+        }
+      ],
+      "resourceName": "projects/summer-monument-436716-f5/locations/global/workloadIdentityPools/pitt-cs-1660-git-actions-pool",
+      "request": {
+        "workloadIdentityPoolProvider": {
+          "displayName": "GitHub-Actions-Provider",
+          "disabled": false,
+          "attributeCondition": "assertion.sub=\"repo:pitt-cs-1660/build-and-push-image-Hehua-Fan:ref:refs/heads/main\"",
+          "oidc": {
+            "issuerUri": "https://token.actions.githubusercontent.com"
+          },
+          "attributeMapping": {
+            "google.subject": "assertion.sub"
+          }
+        },
+        "workloadIdentityPoolProviderId": "pitt-cs-1660-actions-provider",
+        "parent": "projects/summer-monument-436716-f5/locations/global/workloadIdentityPools/pitt-cs-1660-git-actions-pool",
+        "@type": "type.googleapis.com/google.iam.v1.CreateWorkloadIdentityPoolProviderRequest"
+      },
+      "resourceLocation": {
+        "currentLocations": [
+          "global"
+        ]
+      }
+    },
+    "insertId": "o5ewspdjz9m",
+    "resource": {
+      "type": "audited_resource",
+      "labels": {
+        "project_id": "summer-monument-436716-f5",
+        "method": "google.iam.v1.WorkloadIdentityPools.CreateWorkloadIdentityPoolProvider",
+        "service": "iam.googleapis.com"
+      }
+    },
+    "timestamp": "2024-11-04T00:16:14.340656331Z",
+    "severity": "ERROR",
+    "logName": "projects/summer-monument-436716-f5/logs/cloudaudit.googleapis.com%2Factivity",
+    "receiveTimestamp": "2024-11-04T00:16:15.238345804Z"
+  },
+  {
+    "protoPayload": {
+      "@type": "type.googleapis.com/google.cloud.audit.AuditLog",
+      "authenticationInfo": {
+        "principalEmail": "forhheart5532@gmail.com",
+        "principalSubject": "user:forhheart5532@gmail.com"
+      },
+      "requestMetadata": {
+        "callerIp": "2601:547:782:fc0:1887:4fe7:9815:721",
+        "callerSuppliedUserAgent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/130.0.0.0 Safari/537.36,gzip(gfe)",
+        "requestAttributes": {
+          "time": "2024-11-04T00:16:52.793838391Z",
+          "auth": {}
+        },
+        "destinationAttributes": {}
+      },
+      "serviceName": "iam.googleapis.com",
+      "methodName": "google.iam.v1.WorkloadIdentityPools.CreateWorkloadIdentityPoolProvider",
+      "authorizationInfo": [
+        {
+          "resource": "projects/summer-monument-436716-f5/locations/global/workloadIdentityPools/pitt-cs-1660-git-actions-pool",
+          "permission": "iam.workloadIdentityPoolProviders.create",
+          "granted": true,
+          "resourceAttributes": {},
+          "permissionType": "ADMIN_WRITE"
+        }
+      ],
+      "resourceName": "projects/summer-monument-436716-f5/locations/global/workloadIdentityPools/pitt-cs-1660-git-actions-pool",
+      "request": {
+        "parent": "projects/summer-monument-436716-f5/locations/global/workloadIdentityPools/pitt-cs-1660-git-actions-pool",
+        "workloadIdentityPoolProviderId": "pitt-cs-1660-actions-provider",
+        "workloadIdentityPoolProvider": {
+          "displayName": "GitHub-Actions-Provider",
+          "attributeCondition": "assertion.sub==\"repo:pitt-cs-1660/build-and-push-image-Hehua-Fan:ref:refs/heads/main\"",
+          "disabled": false,
+          "oidc": {
+            "issuerUri": "https://token.actions.githubusercontent.com"
+          },
+          "attributeMapping": {
+            "google.subject": "assertion.sub"
+          }
+        },
+        "@type": "type.googleapis.com/google.iam.v1.CreateWorkloadIdentityPoolProviderRequest"
+      },
+      "resourceLocation": {
+        "currentLocations": [
+          "global"
+        ]
+      }
+    },
+    "insertId": "w8xhawdjn8w",
+    "resource": {
+      "type": "audited_resource",
+      "labels": {
+        "project_id": "summer-monument-436716-f5",
+        "method": "google.iam.v1.WorkloadIdentityPools.CreateWorkloadIdentityPoolProvider",
+        "service": "iam.googleapis.com"
+      }
+    },
+    "timestamp": "2024-11-04T00:16:52.772621743Z",
+    "severity": "NOTICE",
+    "logName": "projects/summer-monument-436716-f5/logs/cloudaudit.googleapis.com%2Factivity",
+    "operation": {
+      "id": "projects/1027693462651/locations/global/workloadIdentityPools/pitt-cs-1660-git-actions-pool/providers/pitt-cs-1660-actions-provider/operations/bigar5neuc4qmeeitsg6sai000000000",
+      "producer": "iam.googleapis.com",
+      "first": true
+    },
+    "receiveTimestamp": "2024-11-04T00:16:53.610049248Z"
+  },
+  {
+    "protoPayload": {
+      "@type": "type.googleapis.com/google.cloud.audit.AuditLog",
+      "authenticationInfo": {
+        "principalEmail": "forhheart5532@gmail.com",
+        "principalSubject": "user:forhheart5532@gmail.com"
+      },
+      "requestMetadata": {
+        "requestAttributes": {},
+        "destinationAttributes": {}
+      },
+      "serviceName": "iam.googleapis.com",
+      "methodName": "google.iam.v1.WorkloadIdentityPools.CreateWorkloadIdentityPoolProvider",
+      "resourceName": "projects/summer-monument-436716-f5/locations/global/workloadIdentityPools/pitt-cs-1660-git-actions-pool",
+      "response": {
+        "@type": "type.googleapis.com/google.longrunning.Operation",
+        "name": "projects/1027693462651/locations/global/workloadIdentityPools/pitt-cs-1660-git-actions-pool/providers/pitt-cs-1660-actions-provider/operations/bigar5neuc4qmeeitsg6sai000000000"
+      }
+    },
+    "insertId": "-e3adsnbyi",
+    "resource": {
+      "type": "audited_resource",
+      "labels": {
+        "method": "google.iam.v1.WorkloadIdentityPools.CreateWorkloadIdentityPoolProvider",
+        "service": "iam.googleapis.com",
+        "project_id": "summer-monument-436716-f5"
+      }
+    },
+    "timestamp": "2024-11-04T00:16:53.489869Z",
+    "severity": "NOTICE",
+    "logName": "projects/summer-monument-436716-f5/logs/cloudaudit.googleapis.com%2Factivity",
+    "operation": {
+      "id": "projects/1027693462651/locations/global/workloadIdentityPools/pitt-cs-1660-git-actions-pool/providers/pitt-cs-1660-actions-provider/operations/bigar5neuc4qmeeitsg6sai000000000",
+      "producer": "iam.googleapis.com",
+      "last": true
+    },
+    "receiveTimestamp": "2024-11-04T00:16:53.933147485Z"
+  },
+  {
+    "protoPayload": {
+      "@type": "type.googleapis.com/google.cloud.audit.AuditLog",
+      "status": {
+        "code": 3,
+        "message": "The member principalSet://iam.googleapis.com/projects/1027693462651/locations/global/workloadIdentityPools/pitt-cs-1660-git-actions-pool/attribute.repository is of an unknown type. Please set a valid type prefix for the member."
+      },
+      "authenticationInfo": {
+        "principalEmail": "forhheart5532@gmail.com",
+        "principalSubject": "user:forhheart5532@gmail.com"
+      },
+      "requestMetadata": {
+        "callerIp": "34.23.6.183",
+        "callerSuppliedUserAgent": "google-cloud-sdk gcloud/499.0.0 command/gcloud.artifacts.repositories.add-iam-policy-binding invocation-id/c1e7f3120b81423d96d6b306cdbcce14 environment/devshell environment-version/None client-os/LINUX client-os-ver/6.1.112 client-pltf-arch/x86_64 interactive/True from-script/False python/3.11.9 term/screen (Linux 6.1.112+),gzip(gfe),gzip(gfe)",
+        "requestAttributes": {
+          "time": "2024-11-04T00:20:27.620912449Z",
+          "auth": {}
+        },
+        "destinationAttributes": {}
+      },
+      "serviceName": "artifactregistry.googleapis.com",
+      "methodName": "google.devtools.artifactregistry.v1.ArtifactRegistry.SetIamPolicy",
+      "authorizationInfo": [
+        {
+          "resource": "projects/summer-monument-436716-f5/locations/us-central1/repositories/pitt-cs-1660-build-and-push-image-hehua-fan",
+          "permission": "artifactregistry.repositories.setIamPolicy",
+          "granted": true,
+          "resourceAttributes": {},
+          "permissionType": "ADMIN_WRITE"
+        }
+      ],
+      "resourceName": "projects/summer-monument-436716-f5/locations/us-central1/repositories/pitt-cs-1660-build-and-push-image-hehua-fan",
+      "request": {
+        "@type": "type.googleapis.com/google.iam.v1.SetIamPolicyRequest",
+        "resource": "projects/summer-monument-436716-f5/locations/us-central1/repositories/pitt-cs-1660-build-and-push-image-hehua-fan"
+      }
+    },
+    "insertId": "c9tj90d18w1",
+    "resource": {
+      "type": "audited_resource",
+      "labels": {
+        "project_id": "summer-monument-436716-f5",
+        "service": "artifactregistry.googleapis.com",
+        "method": "google.devtools.artifactregistry.v1.ArtifactRegistry.SetIamPolicy"
+      }
+    },
+    "timestamp": "2024-11-04T00:20:27.610881760Z",
+    "severity": "ERROR",
+    "logName": "projects/summer-monument-436716-f5/logs/cloudaudit.googleapis.com%2Factivity",
+    "receiveTimestamp": "2024-11-04T00:20:27.682775821Z"
+  },
+  {
+    "protoPayload": {
+      "@type": "type.googleapis.com/google.cloud.audit.AuditLog",
+      "authenticationInfo": {
+        "principalEmail": "forhheart5532@gmail.com",
+        "principalSubject": "user:forhheart5532@gmail.com"
+      },
+      "requestMetadata": {
+        "callerIp": "34.23.6.183",
+        "callerSuppliedUserAgent": "google-cloud-sdk gcloud/499.0.0 command/gcloud.artifacts.repositories.add-iam-policy-binding invocation-id/ffdc98cbda49429dbaf0d5a54e40d647 environment/devshell environment-version/None client-os/LINUX client-os-ver/6.1.112 client-pltf-arch/x86_64 interactive/True from-script/False python/3.11.9 term/screen (Linux 6.1.112+),gzip(gfe),gzip(gfe)",
+        "requestAttributes": {
+          "time": "2024-11-04T00:21:20.933489952Z",
+          "auth": {}
+        },
+        "destinationAttributes": {}
+      },
+      "serviceName": "artifactregistry.googleapis.com",
+      "methodName": "google.devtools.artifactregistry.v1.ArtifactRegistry.SetIamPolicy",
+      "authorizationInfo": [
+        {
+          "resource": "projects/summer-monument-436716-f5/locations/us-central1/repositories/pitt-cs-1660-build-and-push-image-hehua-fan",
+          "permission": "artifactregistry.repositories.setIamPolicy",
+          "granted": true,
+          "resourceAttributes": {},
+          "permissionType": "ADMIN_WRITE"
+        }
+      ],
+      "resourceName": "projects/summer-monument-436716-f5/locations/us-central1/repositories/pitt-cs-1660-build-and-push-image-hehua-fan",
+      "request": {
+        "resource": "projects/summer-monument-436716-f5/locations/us-central1/repositories/pitt-cs-1660-build-and-push-image-hehua-fan",
+        "@type": "type.googleapis.com/google.iam.v1.SetIamPolicyRequest"
+      },
+      "response": {
+        "@type": "type.googleapis.com/google.iam.v1.Policy"
+      }
+    },
+    "insertId": "5jy14vd1f0b",
+    "resource": {
+      "type": "audited_resource",
+      "labels": {
+        "method": "google.devtools.artifactregistry.v1.ArtifactRegistry.SetIamPolicy",
+        "project_id": "summer-monument-436716-f5",
+        "service": "artifactregistry.googleapis.com"
+      }
+    },
+    "timestamp": "2024-11-04T00:21:20.925338833Z",
+    "severity": "NOTICE",
+    "logName": "projects/summer-monument-436716-f5/logs/cloudaudit.googleapis.com%2Factivity",
+    "receiveTimestamp": "2024-11-04T00:21:22.067154709Z"
+  },
+  {
+    "protoPayload": {
+      "@type": "type.googleapis.com/google.cloud.audit.AuditLog",
+      "authenticationInfo": {
+        "principalEmail": "forhheart5532@gmail.com",
+        "principalSubject": "user:forhheart5532@gmail.com"
+      },
+      "requestMetadata": {
+        "callerIp": "35.185.62.234",
+        "callerSuppliedUserAgent": "google-cloud-sdk gcloud/499.0.0 command/gcloud.artifacts.repositories.add-iam-policy-binding invocation-id/8b42803f34e14dbeba4ed1b6e569fde0 environment/devshell environment-version/None client-os/LINUX client-os-ver/6.1.112 client-pltf-arch/x86_64 interactive/True from-script/False python/3.11.9 term/screen (Linux 6.1.112+),gzip(gfe),gzip(gfe)",
+        "requestAttributes": {
+          "time": "2024-11-04T02:02:37.927962969Z",
+          "auth": {}
+        },
+        "destinationAttributes": {}
+      },
+      "serviceName": "artifactregistry.googleapis.com",
+      "methodName": "google.devtools.artifactregistry.v1.ArtifactRegistry.SetIamPolicy",
+      "authorizationInfo": [
+        {
+          "resource": "projects/summer-monument-436716-f5/locations/us-central1/repositories/pitt-cs-1660-build-and-push-image-hehua-fan",
+          "permission": "artifactregistry.repositories.setIamPolicy",
+          "granted": true,
+          "resourceAttributes": {},
+          "permissionType": "ADMIN_WRITE"
+        }
+      ],
+      "resourceName": "projects/summer-monument-436716-f5/locations/us-central1/repositories/pitt-cs-1660-build-and-push-image-hehua-fan",
+      "request": {
+        "resource": "projects/summer-monument-436716-f5/locations/us-central1/repositories/pitt-cs-1660-build-and-push-image-hehua-fan",
+        "@type": "type.googleapis.com/google.iam.v1.SetIamPolicyRequest"
+      },
+      "response": {
+        "@type": "type.googleapis.com/google.iam.v1.Policy"
+      }
+    },
+    "insertId": "1uwpo45d3wfi",
+    "resource": {
+      "type": "audited_resource",
+      "labels": {
+        "project_id": "summer-monument-436716-f5",
+        "method": "google.devtools.artifactregistry.v1.ArtifactRegistry.SetIamPolicy",
+        "service": "artifactregistry.googleapis.com"
+      }
+    },
+    "timestamp": "2024-11-04T02:02:37.919229516Z",
+    "severity": "NOTICE",
+    "logName": "projects/summer-monument-436716-f5/logs/cloudaudit.googleapis.com%2Factivity",
+    "receiveTimestamp": "2024-11-04T02:02:38.449745686Z"
+  },
+  {
+    "protoPayload": {
+      "@type": "type.googleapis.com/google.cloud.audit.AuditLog",
+      "authenticationInfo": {
+        "principalEmail": "forhheart5532@gmail.com",
+        "principalSubject": "user:forhheart5532@gmail.com"
+      },
+      "requestMetadata": {
+        "callerIp": "2601:547:782:fc0:1887:4fe7:9815:721",
+        "callerSuppliedUserAgent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/130.0.0.0 Safari/537.36,gzip(gfe)",
+        "requestAttributes": {
+          "time": "2024-11-04T02:22:02.530986981Z",
+          "auth": {}
+        },
+        "destinationAttributes": {}
+      },
+      "serviceName": "iam.googleapis.com",
+      "methodName": "google.iam.v1.WorkloadIdentityPools.UpdateWorkloadIdentityPoolProvider",
+      "authorizationInfo": [
+        {
+          "resource": "projects/summer-monument-436716-f5/locations/global/workloadIdentityPools/pitt-cs-1660-git-actions-pool/providers/pitt-cs-1660-actions-provider",
+          "permission": "iam.workloadIdentityPoolProviders.update",
+          "granted": true,
+          "resourceAttributes": {},
+          "permissionType": "ADMIN_WRITE"
+        }
+      ],
+      "resourceName": "projects/summer-monument-436716-f5/locations/global/workloadIdentityPools/pitt-cs-1660-git-actions-pool/providers/pitt-cs-1660-actions-provider",
+      "request": {
+        "@type": "type.googleapis.com/google.iam.v1.UpdateWorkloadIdentityPoolProviderRequest",
+        "updateMask": "displayName,disabled,attributeMapping,attributeCondition,oidc.issuerUri,oidc.allowedAudiences,oidc.jwksJson",
+        "workloadIdentityPoolProvider": {
+          "name": "projects/summer-monument-436716-f5/locations/global/workloadIdentityPools/pitt-cs-1660-git-actions-pool/providers/pitt-cs-1660-actions-provider",
+          "attributeMapping": {
+            "google.subject": "assertion.sub"
+          },
+          "oidc": {
+            "issuerUri": "https://token.actions.githubusercontent.com"
+          },
+          "displayName": "GitHub-Actions-Provider",
+          "disabled": false,
+          "attributeCondition": "assertion.sub == \"repo:pitt-cs-1660/build-and-push-image-Hehua-Fan:ref:refs/heads/main\""
+        }
+      }
+    },
+    "insertId": "qo5xghdmye4",
+    "resource": {
+      "type": "audited_resource",
+      "labels": {
+        "method": "google.iam.v1.WorkloadIdentityPools.UpdateWorkloadIdentityPoolProvider",
+        "project_id": "summer-monument-436716-f5",
+        "service": "iam.googleapis.com"
+      }
+    },
+    "timestamp": "2024-11-04T02:22:02.515438762Z",
+    "severity": "NOTICE",
+    "logName": "projects/summer-monument-436716-f5/logs/cloudaudit.googleapis.com%2Factivity",
+    "operation": {
+      "id": "projects/1027693462651/locations/global/workloadIdentityPools/pitt-cs-1660-git-actions-pool/providers/pitt-cs-1660-actions-provider/operations/bifqrs67uc4qmeey5hira00000000000",
+      "producer": "iam.googleapis.com",
+      "first": true
+    },
+    "receiveTimestamp": "2024-11-04T02:22:03.732763240Z"
+  },
+  {
+    "protoPayload": {
+      "@type": "type.googleapis.com/google.cloud.audit.AuditLog",
+      "authenticationInfo": {
+        "principalEmail": "forhheart5532@gmail.com",
+        "principalSubject": "user:forhheart5532@gmail.com"
+      },
+      "requestMetadata": {
+        "callerIp": "2601:547:782:fc0:1887:4fe7:9815:721",
+        "callerSuppliedUserAgent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/130.0.0.0 Safari/537.36,gzip(gfe)",
+        "requestAttributes": {
+          "time": "2024-11-04T02:22:02.739654412Z",
+          "auth": {}
+        },
+        "destinationAttributes": {}
+      },
+      "serviceName": "iam.googleapis.com",
+      "methodName": "google.iam.v1.WorkloadIdentityPools.UpdateWorkloadIdentityPoolProvider",
+      "authorizationInfo": [
+        {
+          "resource": "projects/summer-monument-436716-f5/locations/global/workloadIdentityPools/pitt-cs-1660-git-actions-pool/providers/pitt-cs-1660-actions-provider",
+          "permission": "iam.workloadIdentityPoolProviders.update",
+          "granted": true,
+          "resourceAttributes": {},
+          "permissionType": "ADMIN_WRITE"
+        }
+      ],
+      "resourceName": "projects/summer-monument-436716-f5/locations/global/workloadIdentityPools/pitt-cs-1660-git-actions-pool/providers/pitt-cs-1660-actions-provider",
+      "request": {
+        "@type": "type.googleapis.com/google.iam.v1.UpdateWorkloadIdentityPoolProviderRequest",
+        "workloadIdentityPoolProvider": {
+          "oidc": {
+            "issuerUri": "https://token.actions.githubusercontent.com"
+          },
+          "name": "projects/summer-monument-436716-f5/locations/global/workloadIdentityPools/pitt-cs-1660-git-actions-pool/providers/pitt-cs-1660-actions-provider",
+          "disabled": false,
+          "displayName": "GitHub-Actions-Provider",
+          "attributeCondition": "assertion.sub == \"repo:pitt-cs-1660/build-and-push-image-Hehua-Fan:ref:refs/heads/main\"",
+          "attributeMapping": {
+            "google.subject": "assertion.sub"
+          }
+        },
+        "updateMask": "displayName,disabled,attributeMapping,attributeCondition,oidc.issuerUri,oidc.allowedAudiences,oidc.jwksJson"
+      }
+    },
+    "insertId": "n1ylxfdm5hf",
+    "resource": {
+      "type": "audited_resource",
+      "labels": {
+        "method": "google.iam.v1.WorkloadIdentityPools.UpdateWorkloadIdentityPoolProvider",
+        "service": "iam.googleapis.com",
+        "project_id": "summer-monument-436716-f5"
+      }
+    },
+    "timestamp": "2024-11-04T02:22:02.724736473Z",
+    "severity": "NOTICE",
+    "logName": "projects/summer-monument-436716-f5/logs/cloudaudit.googleapis.com%2Factivity",
+    "operation": {
+      "id": "projects/1027693462651/locations/global/workloadIdentityPools/pitt-cs-1660-git-actions-pool/providers/pitt-cs-1660-actions-provider/operations/bifqrs67uc4qmeeaykkuk00000000000",
+      "producer": "iam.googleapis.com",
+      "first": true
+    },
+    "receiveTimestamp": "2024-11-04T02:22:04.107436006Z"
+  },
+  {
+    "protoPayload": {
+      "@type": "type.googleapis.com/google.cloud.audit.AuditLog",
+      "authenticationInfo": {
+        "principalEmail": "forhheart5532@gmail.com",
+        "principalSubject": "user:forhheart5532@gmail.com"
+      },
+      "requestMetadata": {
+        "requestAttributes": {},
+        "destinationAttributes": {}
+      },
+      "serviceName": "iam.googleapis.com",
+      "methodName": "google.iam.v1.WorkloadIdentityPools.UpdateWorkloadIdentityPoolProvider",
+      "resourceName": "projects/summer-monument-436716-f5/locations/global/workloadIdentityPools/pitt-cs-1660-git-actions-pool/providers/pitt-cs-1660-actions-provider",
+      "response": {
+        "@type": "type.googleapis.com/google.longrunning.Operation",
+        "name": "projects/1027693462651/locations/global/workloadIdentityPools/pitt-cs-1660-git-actions-pool/providers/pitt-cs-1660-actions-provider/operations/bifqrs67uc4qmeey5hira00000000000"
+      }
+    },
+    "insertId": "2ieh02cg5t",
+    "resource": {
+      "type": "audited_resource",
+      "labels": {
+        "method": "google.iam.v1.WorkloadIdentityPools.UpdateWorkloadIdentityPoolProvider",
+        "service": "iam.googleapis.com",
+        "project_id": "summer-monument-436716-f5"
+      }
+    },
+    "timestamp": "2024-11-04T02:22:03.035447Z",
+    "severity": "NOTICE",
+    "logName": "projects/summer-monument-436716-f5/logs/cloudaudit.googleapis.com%2Factivity",
+    "operation": {
+      "id": "projects/1027693462651/locations/global/workloadIdentityPools/pitt-cs-1660-git-actions-pool/providers/pitt-cs-1660-actions-provider/operations/bifqrs67uc4qmeey5hira00000000000",
+      "producer": "iam.googleapis.com",
+      "last": true
+    },
+    "receiveTimestamp": "2024-11-04T02:22:03.132930123Z"
+  },
+  {
+    "protoPayload": {
+      "@type": "type.googleapis.com/google.cloud.audit.AuditLog",
+      "authenticationInfo": {
+        "principalEmail": "forhheart5532@gmail.com",
+        "principalSubject": "user:forhheart5532@gmail.com"
+      },
+      "requestMetadata": {
+        "requestAttributes": {},
+        "destinationAttributes": {}
+      },
+      "serviceName": "iam.googleapis.com",
+      "methodName": "google.iam.v1.WorkloadIdentityPools.UpdateWorkloadIdentityPoolProvider",
+      "resourceName": "projects/summer-monument-436716-f5/locations/global/workloadIdentityPools/pitt-cs-1660-git-actions-pool/providers/pitt-cs-1660-actions-provider",
+      "response": {
+        "name": "projects/1027693462651/locations/global/workloadIdentityPools/pitt-cs-1660-git-actions-pool/providers/pitt-cs-1660-actions-provider/operations/bifqrs67uc4qmeeaykkuk00000000000",
+        "@type": "type.googleapis.com/google.longrunning.Operation"
+      }
+    },
+    "insertId": "2ieh02cg5u",
+    "resource": {
+      "type": "audited_resource",
+      "labels": {
+        "method": "google.iam.v1.WorkloadIdentityPools.UpdateWorkloadIdentityPoolProvider",
+        "project_id": "summer-monument-436716-f5",
+        "service": "iam.googleapis.com"
+      }
+    },
+    "timestamp": "2024-11-04T02:22:03.145703Z",
+    "severity": "NOTICE",
+    "logName": "projects/summer-monument-436716-f5/logs/cloudaudit.googleapis.com%2Factivity",
+    "operation": {
+      "id": "projects/1027693462651/locations/global/workloadIdentityPools/pitt-cs-1660-git-actions-pool/providers/pitt-cs-1660-actions-provider/operations/bifqrs67uc4qmeeaykkuk00000000000",
+      "producer": "iam.googleapis.com",
+      "last": true
+    },
+    "receiveTimestamp": "2024-11-04T02:22:04.134239846Z"
+  },
+  {
+    "protoPayload": {
+      "@type": "type.googleapis.com/google.cloud.audit.AuditLog",
+      "authenticationInfo": {
+        "principalEmail": "forhheart5532@gmail.com",
+        "principalSubject": "user:forhheart5532@gmail.com"
+      },
+      "requestMetadata": {
+        "callerIp": "35.185.62.234",
+        "callerSuppliedUserAgent": "google-cloud-sdk gcloud/499.0.0 command/gcloud.artifacts.repositories.add-iam-policy-binding invocation-id/4b103a00b4764ade83dde7652b8696d1 environment/devshell environment-version/None client-os/LINUX client-os-ver/6.1.112 client-pltf-arch/x86_64 interactive/True from-script/False python/3.11.9 term/screen (Linux 6.1.112+),gzip(gfe),gzip(gfe)",
+        "requestAttributes": {
+          "time": "2024-11-04T02:58:01.046731578Z",
+          "auth": {}
+        },
+        "destinationAttributes": {}
+      },
+      "serviceName": "artifactregistry.googleapis.com",
+      "methodName": "google.devtools.artifactregistry.v1.ArtifactRegistry.SetIamPolicy",
+      "authorizationInfo": [
+        {
+          "resource": "projects/summer-monument-436716-f5/locations/us-central1/repositories/pitt-cs-1660-build-and-push-image-hehua-fan",
+          "permission": "artifactregistry.repositories.setIamPolicy",
+          "granted": true,
+          "resourceAttributes": {},
+          "permissionType": "ADMIN_WRITE"
+        }
+      ],
+      "resourceName": "projects/summer-monument-436716-f5/locations/us-central1/repositories/pitt-cs-1660-build-and-push-image-hehua-fan",
+      "request": {
+        "@type": "type.googleapis.com/google.iam.v1.SetIamPolicyRequest",
+        "resource": "projects/summer-monument-436716-f5/locations/us-central1/repositories/pitt-cs-1660-build-and-push-image-hehua-fan"
+      },
+      "response": {
+        "@type": "type.googleapis.com/google.iam.v1.Policy"
+      }
+    },
+    "insertId": "ofwis8d3uhd",
+    "resource": {
+      "type": "audited_resource",
+      "labels": {
+        "project_id": "summer-monument-436716-f5",
+        "method": "google.devtools.artifactregistry.v1.ArtifactRegistry.SetIamPolicy",
+        "service": "artifactregistry.googleapis.com"
+      }
+    },
+    "timestamp": "2024-11-04T02:58:01.041119650Z",
+    "severity": "NOTICE",
+    "logName": "projects/summer-monument-436716-f5/logs/cloudaudit.googleapis.com%2Factivity",
+    "receiveTimestamp": "2024-11-04T02:58:01.966946860Z"
+  },
+  {
+    "protoPayload": {
+      "@type": "type.googleapis.com/google.cloud.audit.AuditLog",
+      "authenticationInfo": {
+        "principalEmail": "forhheart5532@gmail.com",
+        "principalSubject": "user:forhheart5532@gmail.com"
+      },
+      "requestMetadata": {
+        "callerIp": "35.185.62.234",
+        "callerSuppliedUserAgent": "google-cloud-sdk gcloud/499.0.0 command/gcloud.artifacts.repositories.add-iam-policy-binding invocation-id/98c017fc31e3400690ef7d0909bfd882 environment/devshell environment-version/None client-os/LINUX client-os-ver/6.1.112 client-pltf-arch/x86_64 interactive/True from-script/False python/3.11.9 term/screen (Linux 6.1.112+),gzip(gfe),gzip(gfe)",
+        "requestAttributes": {
+          "time": "2024-11-04T03:12:14.827154981Z",
+          "auth": {}
+        },
+        "destinationAttributes": {}
+      },
+      "serviceName": "artifactregistry.googleapis.com",
+      "methodName": "google.devtools.artifactregistry.v1.ArtifactRegistry.SetIamPolicy",
+      "authorizationInfo": [
+        {
+          "resource": "projects/summer-monument-436716-f5/locations/us-central1/repositories/pitt-cs-1660-build-and-push-image-hehua-fan",
+          "permission": "artifactregistry.repositories.setIamPolicy",
+          "granted": true,
+          "resourceAttributes": {},
+          "permissionType": "ADMIN_WRITE"
+        }
+      ],
+      "resourceName": "projects/summer-monument-436716-f5/locations/us-central1/repositories/pitt-cs-1660-build-and-push-image-hehua-fan",
+      "request": {
+        "@type": "type.googleapis.com/google.iam.v1.SetIamPolicyRequest",
+        "resource": "projects/summer-monument-436716-f5/locations/us-central1/repositories/pitt-cs-1660-build-and-push-image-hehua-fan"
+      },
+      "response": {
+        "@type": "type.googleapis.com/google.iam.v1.Policy"
+      }
+    },
+    "insertId": "1t83z13d3yc6",
+    "resource": {
+      "type": "audited_resource",
+      "labels": {
+        "method": "google.devtools.artifactregistry.v1.ArtifactRegistry.SetIamPolicy",
+        "service": "artifactregistry.googleapis.com",
+        "project_id": "summer-monument-436716-f5"
+      }
+    },
+    "timestamp": "2024-11-04T03:12:14.819289194Z",
+    "severity": "NOTICE",
+    "logName": "projects/summer-monument-436716-f5/logs/cloudaudit.googleapis.com%2Factivity",
+    "receiveTimestamp": "2024-11-04T03:12:15.631709530Z"
+  },
+  {
+    "protoPayload": {
+      "@type": "type.googleapis.com/google.cloud.audit.AuditLog",
+      "authenticationInfo": {
+        "principalEmail": "forhheart5532@gmail.com",
+        "principalSubject": "user:forhheart5532@gmail.com"
+      },
+      "requestMetadata": {
+        "callerIp": "2601:547:782:fc0:1887:4fe7:9815:721",
+        "callerSuppliedUserAgent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/130.0.0.0 Safari/537.36,gzip(gfe),gzip(gfe)",
+        "requestAttributes": {
+          "time": "2024-11-04T03:18:17.421360545Z",
+          "auth": {}
+        },
+        "destinationAttributes": {}
+      },
+      "serviceName": "artifactregistry.googleapis.com",
+      "methodName": "google.devtools.artifactregistry.v1.ArtifactRegistry.DeleteRepository",
+      "authorizationInfo": [
+        {
+          "resource": "projects/summer-monument-436716-f5/locations/us-central1/repositories/pitt-cs-1660-build-and-push-image-hehua-fan",
+          "permission": "artifactregistry.repositories.delete",
+          "granted": true,
+          "resourceAttributes": {},
+          "permissionType": "ADMIN_WRITE"
+        }
+      ],
+      "resourceName": "projects/summer-monument-436716-f5/locations/us-central1/repositories/pitt-cs-1660-build-and-push-image-hehua-fan",
+      "request": {
+        "name": "projects/summer-monument-436716-f5/locations/us-central1/repositories/pitt-cs-1660-build-and-push-image-hehua-fan",
+        "@type": "type.googleapis.com/google.devtools.artifactregistry.v1.DeleteRepositoryRequest"
+      }
+    },
+    "insertId": "1fcs4c7d2vss",
+    "resource": {
+      "type": "audited_resource",
+      "labels": {
+        "service": "artifactregistry.googleapis.com",
+        "project_id": "summer-monument-436716-f5",
+        "method": "google.devtools.artifactregistry.v1.ArtifactRegistry.DeleteRepository"
+      }
+    },
+    "timestamp": "2024-11-04T03:18:17.410445057Z",
+    "severity": "NOTICE",
+    "logName": "projects/summer-monument-436716-f5/logs/cloudaudit.googleapis.com%2Factivity",
+    "operation": {
+      "id": "projects/summer-monument-436716-f5/locations/us-central1/operations/b4adc857-1d1d-45f5-b282-81d8d6c98ea7",
+      "producer": "artifactregistry.googleapis.com",
+      "first": true
+    },
+    "receiveTimestamp": "2024-11-04T03:18:17.895088473Z"
+  },
+  {
+    "protoPayload": {
+      "@type": "type.googleapis.com/google.cloud.audit.AuditLog",
+      "status": {},
+      "authenticationInfo": {
+        "principalEmail": "forhheart5532@gmail.com",
+        "principalSubject": "user:forhheart5532@gmail.com"
+      },
+      "requestMetadata": {
+        "requestAttributes": {},
+        "destinationAttributes": {}
+      },
+      "serviceName": "artifactregistry.googleapis.com",
+      "methodName": "google.devtools.artifactregistry.v1.ArtifactRegistry.DeleteRepository",
+      "resourceName": "projects/summer-monument-436716-f5/locations/us-central1/repositories/pitt-cs-1660-build-and-push-image-hehua-fan",
+      "response": {
+        "@type": "type.googleapis.com/google.protobuf.Any",
+        "value": {}
+      }
+    },
+    "insertId": "477l7he1ogc4",
+    "resource": {
+      "type": "audited_resource",
+      "labels": {
+        "method": "google.devtools.artifactregistry.v1.ArtifactRegistry.DeleteRepository",
+        "project_id": "summer-monument-436716-f5",
+        "service": "artifactregistry.googleapis.com"
+      }
+    },
+    "timestamp": "2024-11-04T03:18:17.506481951Z",
+    "severity": "NOTICE",
+    "logName": "projects/summer-monument-436716-f5/logs/cloudaudit.googleapis.com%2Factivity",
+    "operation": {
+      "id": "projects/summer-monument-436716-f5/locations/us-central1/operations/b4adc857-1d1d-45f5-b282-81d8d6c98ea7",
+      "producer": "artifactregistry.googleapis.com",
+      "last": true
+    },
+    "receiveTimestamp": "2024-11-04T03:18:17.863871610Z"
+  },
+  {
+    "protoPayload": {
+      "@type": "type.googleapis.com/google.cloud.audit.AuditLog",
+      "authenticationInfo": {
+        "principalEmail": "forhheart5532@gmail.com",
+        "principalSubject": "user:forhheart5532@gmail.com"
+      },
+      "requestMetadata": {
+        "callerIp": "35.185.62.234",
+        "callerSuppliedUserAgent": "google-cloud-sdk gcloud/499.0.0 command/gcloud.artifacts.repositories.create invocation-id/117d9384705245f790b12b63feeb0237 environment/devshell environment-version/None client-os/LINUX client-os-ver/6.1.112 client-pltf-arch/x86_64 interactive/True from-script/False python/3.11.9 term/screen (Linux 6.1.112+),gzip(gfe),gzip(gfe)",
+        "requestAttributes": {
+          "time": "2024-11-04T03:26:49.112506962Z",
+          "auth": {}
+        },
+        "destinationAttributes": {}
+      },
+      "serviceName": "artifactregistry.googleapis.com",
+      "methodName": "google.devtools.artifactregistry.v1.ArtifactRegistry.CreateRepository",
+      "authorizationInfo": [
+        {
+          "resource": "projects/summer-monument-436716-f5/locations/us-east1",
+          "permission": "artifactregistry.repositories.create",
+          "granted": true,
+          "resourceAttributes": {},
+          "permissionType": "ADMIN_WRITE"
+        }
+      ],
+      "resourceName": "projects/summer-monument-436716-f5/locations/us-east1",
+      "request": {
+        "repository": {
+          "format": "DOCKER",
+          "name": "projects/summer-monument-436716-f5/locations/us-east1/repositories/repo-hw3-git-action"
+        },
+        "@type": "type.googleapis.com/google.devtools.artifactregistry.v1.CreateRepositoryRequest",
+        "repositoryId": "repo-hw3-git-action",
+        "parent": "projects/summer-monument-436716-f5/locations/us-east1"
+      },
+      "resourceLocation": {
+        "currentLocations": [
+          "us-east1"
+        ]
+      }
+    },
+    "insertId": "1k2nf5pd1lp7",
+    "resource": {
+      "type": "audited_resource",
+      "labels": {
+        "service": "artifactregistry.googleapis.com",
+        "project_id": "summer-monument-436716-f5",
+        "method": "google.devtools.artifactregistry.v1.ArtifactRegistry.CreateRepository"
+      }
+    },
+    "timestamp": "2024-11-04T03:26:49.105269592Z",
+    "severity": "NOTICE",
+    "logName": "projects/summer-monument-436716-f5/logs/cloudaudit.googleapis.com%2Factivity",
+    "operation": {
+      "id": "projects/summer-monument-436716-f5/locations/us-east1/operations/0ec57cea-d03d-44f9-8bbc-13948d176a21",
+      "producer": "artifactregistry.googleapis.com",
+      "first": true
+    },
+    "receiveTimestamp": "2024-11-04T03:26:50.017431933Z"
+  },
+  {
+    "protoPayload": {
+      "@type": "type.googleapis.com/google.cloud.audit.AuditLog",
+      "status": {},
+      "authenticationInfo": {
+        "principalEmail": "forhheart5532@gmail.com",
+        "principalSubject": "user:forhheart5532@gmail.com"
+      },
+      "requestMetadata": {
+        "requestAttributes": {},
+        "destinationAttributes": {}
+      },
+      "serviceName": "artifactregistry.googleapis.com",
+      "methodName": "google.devtools.artifactregistry.v1.ArtifactRegistry.CreateRepository",
+      "resourceName": "projects/summer-monument-436716-f5/locations/us-east1/repositories/repo-hw3-git-action",
+      "response": {
+        "vulnerabilityScanningConfig": {
+          "lastEnableTime": "2024-11-04T03:26:49.119237423Z"
+        },
+        "mode": "STANDARD_REPOSITORY",
+        "@type": "type.googleapis.com/google.protobuf.Any",
+        "format": "DOCKER",
+        "name": "projects/summer-monument-436716-f5/locations/us-east1/repositories/repo-hw3-git-action",
+        "sbomConfig": {},
+        "description": "Docker Artifact Registry for CI/CD pipeline"
+      }
+    },
+    "insertId": "1yhur0tdi89k",
+    "resource": {
+      "type": "audited_resource",
+      "labels": {
+        "service": "artifactregistry.googleapis.com",
+        "method": "google.devtools.artifactregistry.v1.ArtifactRegistry.CreateRepository",
+        "project_id": "summer-monument-436716-f5"
+      }
+    },
+    "timestamp": "2024-11-04T03:26:56.735296271Z",
+    "severity": "NOTICE",
+    "logName": "projects/summer-monument-436716-f5/logs/cloudaudit.googleapis.com%2Factivity",
+    "operation": {
+      "id": "projects/summer-monument-436716-f5/locations/us-east1/operations/0ec57cea-d03d-44f9-8bbc-13948d176a21",
+      "producer": "artifactregistry.googleapis.com",
+      "last": true
+    },
+    "receiveTimestamp": "2024-11-04T03:26:57.579975586Z"
+  },
+  {
+    "protoPayload": {
+      "@type": "type.googleapis.com/google.cloud.audit.AuditLog",
+      "authenticationInfo": {
+        "principalEmail": "forhheart5532@gmail.com",
+        "principalSubject": "user:forhheart5532@gmail.com"
+      },
+      "requestMetadata": {
+        "callerIp": "35.185.62.234",
+        "callerSuppliedUserAgent": "google-cloud-sdk gcloud/499.0.0 command/gcloud.iam.workload-identity-pools.create invocation-id/251458eb2db14187ad4d6fde7eb3bd27 environment/devshell environment-version/None client-os/LINUX client-os-ver/6.1.112 client-pltf-arch/x86_64 interactive/True from-script/False python/3.11.9 term/screen (Linux 6.1.112+),gzip(gfe)",
+        "requestAttributes": {
+          "time": "2024-11-04T03:28:42.180067975Z",
+          "auth": {}
+        },
+        "destinationAttributes": {}
+      },
+      "serviceName": "iam.googleapis.com",
+      "methodName": "google.iam.v1.WorkloadIdentityPools.CreateWorkloadIdentityPool",
+      "authorizationInfo": [
+        {
+          "resource": "projects/summer-monument-436716-f5/locations/global",
+          "permission": "iam.workloadIdentityPools.create",
+          "granted": true,
+          "resourceAttributes": {},
+          "permissionType": "ADMIN_WRITE"
+        }
+      ],
+      "resourceName": "projects/summer-monument-436716-f5/locations/global",
+      "request": {
+        "workloadIdentityPoolId": "github-pool",
+        "parent": "projects/summer-monument-436716-f5/locations/global",
+        "workloadIdentityPool": {
+          "displayName": "GitHub Actions Identity Pool",
+          "disabled": false
+        },
+        "@type": "type.googleapis.com/google.iam.v1.CreateWorkloadIdentityPoolRequest"
+      },
+      "resourceLocation": {
+        "currentLocations": [
+          "global"
+        ]
+      }
+    },
+    "insertId": "qo5xghdn653",
+    "resource": {
+      "type": "audited_resource",
+      "labels": {
+        "method": "google.iam.v1.WorkloadIdentityPools.CreateWorkloadIdentityPool",
+        "service": "iam.googleapis.com",
+        "project_id": "summer-monument-436716-f5"
+      }
+    },
+    "timestamp": "2024-11-04T03:28:42.169439546Z",
+    "severity": "NOTICE",
+    "logName": "projects/summer-monument-436716-f5/logs/cloudaudit.googleapis.com%2Factivity",
+    "operation": {
+      "id": "projects/1027693462651/locations/global/workloadIdentityPools/github-pool/operations/bigar2x6uc4qmehatcckuaq000000000",
+      "producer": "iam.googleapis.com",
+      "first": true
+    },
+    "receiveTimestamp": "2024-11-04T03:28:43.247600675Z"
+  },
+  {
+    "protoPayload": {
+      "@type": "type.googleapis.com/google.cloud.audit.AuditLog",
+      "authenticationInfo": {
+        "principalEmail": "forhheart5532@gmail.com",
+        "principalSubject": "user:forhheart5532@gmail.com"
+      },
+      "requestMetadata": {
+        "requestAttributes": {},
+        "destinationAttributes": {}
+      },
+      "serviceName": "iam.googleapis.com",
+      "methodName": "google.iam.v1.WorkloadIdentityPools.CreateWorkloadIdentityPool",
+      "resourceName": "projects/summer-monument-436716-f5/locations/global",
+      "response": {
+        "name": "projects/1027693462651/locations/global/workloadIdentityPools/github-pool/operations/bigar2x6uc4qmehatcckuaq000000000",
+        "@type": "type.googleapis.com/google.longrunning.Operation"
+      }
+    },
+    "insertId": "2ieh02cgcu",
+    "resource": {
+      "type": "audited_resource",
+      "labels": {
+        "method": "google.iam.v1.WorkloadIdentityPools.CreateWorkloadIdentityPool",
+        "service": "iam.googleapis.com",
+        "project_id": "summer-monument-436716-f5"
+      }
+    },
+    "timestamp": "2024-11-04T03:28:42.625768Z",
+    "severity": "NOTICE",
+    "logName": "projects/summer-monument-436716-f5/logs/cloudaudit.googleapis.com%2Factivity",
+    "operation": {
+      "id": "projects/1027693462651/locations/global/workloadIdentityPools/github-pool/operations/bigar2x6uc4qmehatcckuaq000000000",
+      "producer": "iam.googleapis.com",
+      "last": true
+    },
+    "receiveTimestamp": "2024-11-04T03:28:43.034817457Z"
+  },
+  {
+    "protoPayload": {
+      "@type": "type.googleapis.com/google.cloud.audit.AuditLog",
+      "status": {
+        "code": 3,
+        "message": "The attribute condition must reference one of the provider's claims. For more information, see https://cloud.google.com/iam/docs/workload-identity-federation-with-deployment-pipelines#conditions"
+      },
+      "authenticationInfo": {
+        "principalEmail": "forhheart5532@gmail.com",
+        "principalSubject": "user:forhheart5532@gmail.com"
+      },
+      "requestMetadata": {
+        "callerIp": "35.185.62.234",
+        "callerSuppliedUserAgent": "google-cloud-sdk gcloud/499.0.0 command/gcloud.iam.workload-identity-pools.providers.create-oidc invocation-id/78faf1916e0744a3a5c53021a8cf05e3 environment/devshell environment-version/None client-os/LINUX client-os-ver/6.1.112 client-pltf-arch/x86_64 interactive/True from-script/False python/3.11.9 term/screen (Linux 6.1.112+),gzip(gfe)",
+        "requestAttributes": {
+          "time": "2024-11-04T03:29:34.899061558Z",
+          "auth": {}
+        },
+        "destinationAttributes": {}
+      },
+      "serviceName": "iam.googleapis.com",
+      "methodName": "google.iam.v1.WorkloadIdentityPools.CreateWorkloadIdentityPoolProvider",
+      "authorizationInfo": [
+        {
+          "resource": "projects/summer-monument-436716-f5/locations/global/workloadIdentityPools/github-pool",
+          "permission": "iam.workloadIdentityPoolProviders.create",
+          "granted": true,
+          "resourceAttributes": {},
+          "permissionType": "ADMIN_WRITE"
+        }
+      ],
+      "resourceName": "projects/summer-monument-436716-f5/locations/global/workloadIdentityPools/github-pool",
+      "request": {
+        "workloadIdentityPoolProvider": {
+          "attributeMapping": {
+            "google.subject": "assertion.sub"
+          },
+          "oidc": {
+            "issuerUri": "https://token.actions.githubusercontent.com"
+          },
+          "displayName": "GitHub Actions OIDC Provider",
+          "disabled": false
+        },
+        "parent": "projects/summer-monument-436716-f5/locations/global/workloadIdentityPools/github-pool",
+        "@type": "type.googleapis.com/google.iam.v1.CreateWorkloadIdentityPoolProviderRequest",
+        "workloadIdentityPoolProviderId": "github-provider"
+      },
+      "resourceLocation": {
+        "currentLocations": [
+          "global"
+        ]
+      }
+    },
+    "insertId": "zu0e39dk8f7",
+    "resource": {
+      "type": "audited_resource",
+      "labels": {
+        "service": "iam.googleapis.com",
+        "method": "google.iam.v1.WorkloadIdentityPools.CreateWorkloadIdentityPoolProvider",
+        "project_id": "summer-monument-436716-f5"
+      }
+    },
+    "timestamp": "2024-11-04T03:29:34.885914964Z",
+    "severity": "ERROR",
+    "logName": "projects/summer-monument-436716-f5/logs/cloudaudit.googleapis.com%2Factivity",
+    "receiveTimestamp": "2024-11-04T03:29:35.370206665Z"
+  },
+  {
+    "protoPayload": {
+      "@type": "type.googleapis.com/google.cloud.audit.AuditLog",
+      "authenticationInfo": {
+        "principalEmail": "forhheart5532@gmail.com",
+        "principalSubject": "user:forhheart5532@gmail.com"
+      },
+      "requestMetadata": {
+        "callerIp": "35.185.62.234",
+        "callerSuppliedUserAgent": "google-cloud-sdk gcloud/499.0.0 command/gcloud.iam.workload-identity-pools.create invocation-id/e03438222c4d42fc9db8f0600fb5f5ac environment/devshell environment-version/None client-os/LINUX client-os-ver/6.1.112 client-pltf-arch/x86_64 interactive/True from-script/False python/3.11.9 term/screen (Linux 6.1.112+),gzip(gfe)",
+        "requestAttributes": {
+          "time": "2024-11-04T03:34:47.916277125Z",
+          "auth": {}
+        },
+        "destinationAttributes": {}
+      },
+      "serviceName": "iam.googleapis.com",
+      "methodName": "google.iam.v1.WorkloadIdentityPools.CreateWorkloadIdentityPool",
+      "authorizationInfo": [
+        {
+          "resource": "projects/summer-monument-436716-f5/locations/global",
+          "permission": "iam.workloadIdentityPools.create",
+          "granted": true,
+          "resourceAttributes": {},
+          "permissionType": "ADMIN_WRITE"
+        }
+      ],
+      "resourceName": "projects/summer-monument-436716-f5/locations/global",
+      "request": {
+        "workloadIdentityPoolId": "git-action",
+        "@type": "type.googleapis.com/google.iam.v1.CreateWorkloadIdentityPoolRequest",
+        "workloadIdentityPool": {
+          "disabled": false,
+          "displayName": "GitHub Actions Pool"
+        },
+        "parent": "projects/summer-monument-436716-f5/locations/global"
+      },
+      "resourceLocation": {
+        "currentLocations": [
+          "global"
+        ]
+      }
+    },
+    "insertId": "s1nzdldkgbj",
+    "resource": {
+      "type": "audited_resource",
+      "labels": {
+        "service": "iam.googleapis.com",
+        "project_id": "summer-monument-436716-f5",
+        "method": "google.iam.v1.WorkloadIdentityPools.CreateWorkloadIdentityPool"
+      }
+    },
+    "timestamp": "2024-11-04T03:34:47.908724698Z",
+    "severity": "NOTICE",
+    "logName": "projects/summer-monument-436716-f5/logs/cloudaudit.googleapis.com%2Factivity",
+    "operation": {
+      "id": "projects/1027693462651/locations/global/workloadIdentityPools/git-action/operations/bigarwebug4qmeeytc3j6ai000000000",
+      "producer": "iam.googleapis.com",
+      "first": true
+    },
+    "receiveTimestamp": "2024-11-04T03:34:48.875256084Z"
+  },
+  {
+    "protoPayload": {
+      "@type": "type.googleapis.com/google.cloud.audit.AuditLog",
+      "authenticationInfo": {
+        "principalEmail": "forhheart5532@gmail.com",
+        "principalSubject": "user:forhheart5532@gmail.com"
+      },
+      "requestMetadata": {
+        "requestAttributes": {},
+        "destinationAttributes": {}
+      },
+      "serviceName": "iam.googleapis.com",
+      "methodName": "google.iam.v1.WorkloadIdentityPools.CreateWorkloadIdentityPool",
+      "resourceName": "projects/summer-monument-436716-f5/locations/global",
+      "response": {
+        "@type": "type.googleapis.com/google.longrunning.Operation",
+        "name": "projects/1027693462651/locations/global/workloadIdentityPools/git-action/operations/bigarwebug4qmeeytc3j6ai000000000"
+      }
+    },
+    "insertId": "-y4apkac2qh",
+    "resource": {
+      "type": "audited_resource",
+      "labels": {
+        "project_id": "summer-monument-436716-f5",
+        "method": "google.iam.v1.WorkloadIdentityPools.CreateWorkloadIdentityPool",
+        "service": "iam.googleapis.com"
+      }
+    },
+    "timestamp": "2024-11-04T03:34:48.335234Z",
+    "severity": "NOTICE",
+    "logName": "projects/summer-monument-436716-f5/logs/cloudaudit.googleapis.com%2Factivity",
+    "operation": {
+      "id": "projects/1027693462651/locations/global/workloadIdentityPools/git-action/operations/bigarwebug4qmeeytc3j6ai000000000",
+      "producer": "iam.googleapis.com",
+      "last": true
+    },
+    "receiveTimestamp": "2024-11-04T03:34:48.918950928Z"
+  },
+  {
+    "protoPayload": {
+      "@type": "type.googleapis.com/google.cloud.audit.AuditLog",
+      "authenticationInfo": {
+        "principalEmail": "forhheart5532@gmail.com",
+        "principalSubject": "user:forhheart5532@gmail.com"
+      },
+      "requestMetadata": {
+        "callerIp": "35.185.62.234",
+        "callerSuppliedUserAgent": "google-cloud-sdk gcloud/499.0.0 command/gcloud.iam.workload-identity-pools.providers.create-oidc invocation-id/56648bade6374a96b291b585c454388f environment/devshell environment-version/None client-os/LINUX client-os-ver/6.1.112 client-pltf-arch/x86_64 interactive/True from-script/False python/3.11.9 term/screen (Linux 6.1.112+),gzip(gfe)",
+        "requestAttributes": {
+          "time": "2024-11-04T03:35:17.772938153Z",
+          "auth": {}
+        },
+        "destinationAttributes": {}
+      },
+      "serviceName": "iam.googleapis.com",
+      "methodName": "google.iam.v1.WorkloadIdentityPools.CreateWorkloadIdentityPoolProvider",
+      "authorizationInfo": [
+        {
+          "resource": "projects/summer-monument-436716-f5/locations/global/workloadIdentityPools/git-action",
+          "permission": "iam.workloadIdentityPoolProviders.create",
+          "granted": true,
+          "resourceAttributes": {},
+          "permissionType": "ADMIN_WRITE"
+        }
+      ],
+      "resourceName": "projects/summer-monument-436716-f5/locations/global/workloadIdentityPools/git-action",
+      "request": {
+        "@type": "type.googleapis.com/google.iam.v1.CreateWorkloadIdentityPoolProviderRequest",
+        "workloadIdentityPoolProviderId": "my-repo",
+        "workloadIdentityPoolProvider": {
+          "disabled": false,
+          "oidc": {
+            "issuerUri": "https://token.actions.githubusercontent.com"
+          },
+          "attributeMapping": {
+            "google.subject": "assertion.sub",
+            "attribute.repository": "assertion.repository",
+            "attribute.actor": "assertion.actor",
+            "attribute.repository_owner": "assertion.repository_owner"
+          },
+          "displayName": "My GitHub repo Provider",
+          "attributeCondition": "assertion.repository_owner == 'pitt-cs-1660'"
+        },
+        "parent": "projects/summer-monument-436716-f5/locations/global/workloadIdentityPools/git-action"
+      },
+      "resourceLocation": {
+        "currentLocations": [
+          "global"
+        ]
+      }
+    },
+    "insertId": "w8xhawdkbhs",
+    "resource": {
+      "type": "audited_resource",
+      "labels": {
+        "method": "google.iam.v1.WorkloadIdentityPools.CreateWorkloadIdentityPoolProvider",
+        "service": "iam.googleapis.com",
+        "project_id": "summer-monument-436716-f5"
+      }
+    },
+    "timestamp": "2024-11-04T03:35:17.754981950Z",
+    "severity": "NOTICE",
+    "logName": "projects/summer-monument-436716-f5/logs/cloudaudit.googleapis.com%2Factivity",
+    "operation": {
+      "id": "projects/1027693462651/locations/global/workloadIdentityPools/git-action/providers/my-repo/operations/bifqr5ubug4qmefi4teq400000000000",
+      "producer": "iam.googleapis.com",
+      "first": true
+    },
+    "receiveTimestamp": "2024-11-04T03:35:18.392312402Z"
+  },
+  {
+    "protoPayload": {
+      "@type": "type.googleapis.com/google.cloud.audit.AuditLog",
+      "authenticationInfo": {
+        "principalEmail": "forhheart5532@gmail.com",
+        "principalSubject": "user:forhheart5532@gmail.com"
+      },
+      "requestMetadata": {
+        "requestAttributes": {},
+        "destinationAttributes": {}
+      },
+      "serviceName": "iam.googleapis.com",
+      "methodName": "google.iam.v1.WorkloadIdentityPools.CreateWorkloadIdentityPoolProvider",
+      "resourceName": "projects/summer-monument-436716-f5/locations/global/workloadIdentityPools/git-action",
+      "response": {
+        "@type": "type.googleapis.com/google.longrunning.Operation",
+        "name": "projects/1027693462651/locations/global/workloadIdentityPools/git-action/providers/my-repo/operations/bifqr5ubug4qmefi4teq400000000000"
+      }
+    },
+    "insertId": "-p8h1vmc43a",
+    "resource": {
+      "type": "audited_resource",
+      "labels": {
+        "service": "iam.googleapis.com",
+        "project_id": "summer-monument-436716-f5",
+        "method": "google.iam.v1.WorkloadIdentityPools.CreateWorkloadIdentityPoolProvider"
+      }
+    },
+    "timestamp": "2024-11-04T03:35:18.031322Z",
+    "severity": "NOTICE",
+    "logName": "projects/summer-monument-436716-f5/logs/cloudaudit.googleapis.com%2Factivity",
+    "operation": {
+      "id": "projects/1027693462651/locations/global/workloadIdentityPools/git-action/providers/my-repo/operations/bifqr5ubug4qmefi4teq400000000000",
+      "producer": "iam.googleapis.com",
+      "last": true
+    },
+    "receiveTimestamp": "2024-11-04T03:35:18.173676933Z"
+  },
+  {
+    "protoPayload": {
+      "@type": "type.googleapis.com/google.cloud.audit.AuditLog",
+      "authenticationInfo": {
+        "principalEmail": "forhheart5532@gmail.com",
+        "principalSubject": "user:forhheart5532@gmail.com"
+      },
+      "requestMetadata": {
+        "callerIp": "35.185.62.234",
+        "callerSuppliedUserAgent": "google-cloud-sdk gcloud/499.0.0 command/gcloud.secrets.create invocation-id/28a438358eae43cf9e065e600c976697 environment/devshell environment-version/None client-os/LINUX client-os-ver/6.1.112 client-pltf-arch/x86_64 interactive/True from-script/False python/3.11.9 term/screen (Linux 6.1.112+),gzip(gfe)",
+        "requestAttributes": {},
+        "destinationAttributes": {}
+      },
+      "serviceName": "serviceusage.googleapis.com",
+      "methodName": "google.api.serviceusage.v1.ServiceUsage.EnableService",
+      "authorizationInfo": [
+        {
+          "resource": "projectnumbers/1027693462651/services/secretmanager.googleapis.com",
+          "permission": "serviceusage.services.enable",
+          "granted": true,
+          "resourceAttributes": {},
+          "permissionType": "ADMIN_WRITE"
+        },
+        {
+          "resource": "services/secretmanager.googleapis.com",
+          "permission": "servicemanagement.services.bind",
+          "granted": true,
+          "resourceAttributes": {},
+          "permissionType": "DATA_WRITE"
+        }
+      ],
+      "resourceName": "projects/summer-monument-436716-f5/services/secretmanager.googleapis.com",
+      "request": {
+        "name": "projects/summer-monument-436716-f5/services/secretmanager.googleapis.com",
+        "@type": "type.googleapis.com/google.api.serviceusage.v1.EnableServiceRequest"
+      }
+    },
+    "insertId": "1hvrvkudsopc",
+    "resource": {
+      "type": "audited_resource",
+      "labels": {
+        "method": "google.api.serviceusage.v1.ServiceUsage.EnableService",
+        "project_id": "summer-monument-436716-f5",
+        "service": "serviceusage.googleapis.com"
+      }
+    },
+    "timestamp": "2024-11-04T03:35:39.992588Z",
+    "severity": "NOTICE",
+    "logName": "projects/summer-monument-436716-f5/logs/cloudaudit.googleapis.com%2Factivity",
+    "operation": {
+      "id": "operations/acat.p2-1027693462651-192eeaa0-e4e9-49a9-b491-769b92544c23",
+      "producer": "serviceusage.googleapis.com",
+      "first": true
+    },
+    "receiveTimestamp": "2024-11-04T03:35:40.737180663Z"
+  },
+  {
+    "protoPayload": {
+      "@type": "type.googleapis.com/google.cloud.audit.AuditLog",
+      "status": {},
+      "authenticationInfo": {
+        "principalEmail": "forhheart5532@gmail.com",
+        "principalSubject": "user:forhheart5532@gmail.com"
+      },
+      "requestMetadata": {
+        "callerIp": "35.185.62.234",
+        "callerSuppliedUserAgent": "google-cloud-sdk gcloud/499.0.0 command/gcloud.secrets.create invocation-id/28a438358eae43cf9e065e600c976697 environment/devshell environment-version/None client-os/LINUX client-os-ver/6.1.112 client-pltf-arch/x86_64 interactive/True from-script/False python/3.11.9 term/screen (Linux 6.1.112+),gzip(gfe)",
+        "requestAttributes": {},
+        "destinationAttributes": {}
+      },
+      "serviceName": "serviceusage.googleapis.com",
+      "methodName": "google.longrunning.Operations.GetOperation",
+      "authorizationInfo": [
+        {
+          "resource": "projectnumbers/1027693462651",
+          "permission": "serviceusage.services.enable",
+          "granted": true,
+          "resourceAttributes": {},
+          "permissionType": "ADMIN_WRITE"
+        },
+        {
+          "resource": "projectnumbers/1027693462651/operations/-",
+          "permission": "serviceusage.operations.get",
+          "granted": true,
+          "resourceAttributes": {},
+          "permissionType": "DATA_READ"
+        },
+        {
+          "resource": "projectnumbers/1027693462651",
+          "permission": "serviceusage.services.get",
+          "granted": true,
+          "resourceAttributes": {},
+          "permissionType": "DATA_READ"
+        }
+      ],
+      "resourceName": "projects/1027693462651/operations/acat.p2-1027693462651-192eeaa0-e4e9-49a9-b491-769b92544c23"
+    },
+    "insertId": "1kd7l21drnx1",
+    "resource": {
+      "type": "audited_resource",
+      "labels": {
+        "service": "serviceusage.googleapis.com",
+        "method": "google.longrunning.Operations.GetOperation",
+        "project_id": "summer-monument-436716-f5"
+      }
+    },
+    "timestamp": "2024-11-04T03:35:40.586299Z",
+    "severity": "NOTICE",
+    "logName": "projects/summer-monument-436716-f5/logs/cloudaudit.googleapis.com%2Factivity",
+    "receiveTimestamp": "2024-11-04T03:35:41.472857596Z"
+  },
+  {
+    "protoPayload": {
+      "@type": "type.googleapis.com/google.cloud.audit.AuditLog",
+      "status": {},
+      "authenticationInfo": {
+        "principalEmail": "forhheart5532@gmail.com",
+        "principalSubject": "user:forhheart5532@gmail.com"
+      },
+      "requestMetadata": {
+        "callerIp": "35.185.62.234",
+        "callerSuppliedUserAgent": "google-cloud-sdk gcloud/499.0.0 command/gcloud.secrets.create invocation-id/28a438358eae43cf9e065e600c976697 environment/devshell environment-version/None client-os/LINUX client-os-ver/6.1.112 client-pltf-arch/x86_64 interactive/True from-script/False python/3.11.9 term/screen (Linux 6.1.112+),gzip(gfe)",
+        "requestAttributes": {},
+        "destinationAttributes": {}
+      },
+      "serviceName": "serviceusage.googleapis.com",
+      "methodName": "google.api.serviceusage.v1.ServiceUsage.EnableService",
+      "authorizationInfo": [
+        {
+          "resource": "projectnumbers/1027693462651/services/secretmanager.googleapis.com",
+          "permission": "serviceusage.services.enable",
+          "granted": true,
+          "resourceAttributes": {},
+          "permissionType": "ADMIN_WRITE"
+        },
+        {
+          "resource": "services/secretmanager.googleapis.com",
+          "permission": "servicemanagement.services.bind",
+          "granted": true,
+          "resourceAttributes": {},
+          "permissionType": "DATA_WRITE"
+        }
+      ],
+      "resourceName": "projects/summer-monument-436716-f5/services/secretmanager.googleapis.com",
+      "request": {
+        "@type": "type.googleapis.com/google.api.serviceusage.v1.EnableServiceRequest",
+        "name": "projects/summer-monument-436716-f5/services/secretmanager.googleapis.com"
+      },
+      "response": {
+        "@type": "type.googleapis.com/google.api.serviceusage.v1.EnableServiceResponse",
+        "service": {
+          "parent": "projects/1027693462651",
+          "state": "ENABLED",
+          "name": "projects/1027693462651/services/secretmanager.googleapis.com",
+          "config": {
+            "title": "Secret Manager API",
+            "name": "secretmanager.googleapis.com"
+          }
+        }
+      }
+    },
+    "insertId": "-gcrkqgdg5um",
+    "resource": {
+      "type": "audited_resource",
+      "labels": {
+        "method": "google.api.serviceusage.v1.ServiceUsage.EnableService",
+        "project_id": "summer-monument-436716-f5",
+        "service": "serviceusage.googleapis.com"
+      }
+    },
+    "timestamp": "2024-11-04T03:35:42.409489703Z",
+    "severity": "NOTICE",
+    "logName": "projects/summer-monument-436716-f5/logs/cloudaudit.googleapis.com%2Factivity",
+    "operation": {
+      "id": "operations/acat.p2-1027693462651-192eeaa0-e4e9-49a9-b491-769b92544c23",
+      "producer": "serviceusage.googleapis.com",
+      "last": true
+    },
+    "receiveTimestamp": "2024-11-04T03:35:42.409489703Z"
+  },
+  {
+    "protoPayload": {
+      "@type": "type.googleapis.com/google.cloud.audit.AuditLog",
+      "status": {},
+      "authenticationInfo": {
+        "principalEmail": "forhheart5532@gmail.com",
+        "principalSubject": "user:forhheart5532@gmail.com"
+      },
+      "requestMetadata": {
+        "callerIp": "35.185.62.234",
+        "callerSuppliedUserAgent": "google-cloud-sdk gcloud/499.0.0 command/gcloud.secrets.create invocation-id/28a438358eae43cf9e065e600c976697 environment/devshell environment-version/None client-os/LINUX client-os-ver/6.1.112 client-pltf-arch/x86_64 interactive/True from-script/False python/3.11.9 term/screen (Linux 6.1.112+),gzip(gfe)",
+        "requestAttributes": {},
+        "destinationAttributes": {}
+      },
+      "serviceName": "serviceusage.googleapis.com",
+      "methodName": "google.longrunning.Operations.GetOperation",
+      "authorizationInfo": [
+        {
+          "resource": "projectnumbers/1027693462651",
+          "permission": "serviceusage.services.enable",
+          "granted": true,
+          "resourceAttributes": {},
+          "permissionType": "ADMIN_WRITE"
+        },
+        {
+          "resource": "projectnumbers/1027693462651/operations/-",
+          "permission": "serviceusage.operations.get",
+          "granted": true,
+          "resourceAttributes": {},
+          "permissionType": "DATA_READ"
+        },
+        {
+          "resource": "projectnumbers/1027693462651",
+          "permission": "serviceusage.services.get",
+          "granted": true,
+          "resourceAttributes": {},
+          "permissionType": "DATA_READ"
+        }
+      ],
+      "resourceName": "projects/1027693462651/operations/acat.p2-1027693462651-192eeaa0-e4e9-49a9-b491-769b92544c23"
+    },
+    "insertId": "sn4poedn9vq",
+    "resource": {
+      "type": "audited_resource",
+      "labels": {
+        "service": "serviceusage.googleapis.com",
+        "method": "google.longrunning.Operations.GetOperation",
+        "project_id": "summer-monument-436716-f5"
+      }
+    },
+    "timestamp": "2024-11-04T03:35:42.788173Z",
+    "severity": "NOTICE",
+    "logName": "projects/summer-monument-436716-f5/logs/cloudaudit.googleapis.com%2Factivity",
+    "receiveTimestamp": "2024-11-04T03:35:43.117328145Z"
+  },
+  {
+    "protoPayload": {
+      "@type": "type.googleapis.com/google.cloud.audit.AuditLog",
+      "authenticationInfo": {
+        "principalEmail": "forhheart5532@gmail.com",
+        "principalSubject": "user:forhheart5532@gmail.com"
+      },
+      "requestMetadata": {
+        "callerIp": "35.185.62.234",
+        "callerSuppliedUserAgent": "google-cloud-sdk gcloud/499.0.0 command/gcloud.secrets.create invocation-id/28a438358eae43cf9e065e600c976697 environment/devshell environment-version/None client-os/LINUX client-os-ver/6.1.112 client-pltf-arch/x86_64 interactive/True from-script/False python/3.11.9 term/screen (Linux 6.1.112+),gzip(gfe)",
+        "requestAttributes": {
+          "time": "2024-11-04T03:35:44.483661339Z",
+          "auth": {}
+        },
+        "destinationAttributes": {}
+      },
+      "serviceName": "secretmanager.googleapis.com",
+      "methodName": "google.cloud.secretmanager.v1.SecretManagerService.CreateSecret",
+      "authorizationInfo": [
+        {
+          "permission": "secretmanager.secrets.create",
+          "granted": true,
+          "resourceAttributes": {
+            "service": "secretmanager.googleapis.com",
+            "name": "projects/1027693462651/secrets/my-secret",
+            "type": "secretmanager.googleapis.com/Secret"
+          },
+          "permissionType": "ADMIN_WRITE"
+        }
+      ],
+      "resourceName": "projects/1027693462651/secrets/my-secret",
+      "request": {
+        "secretId": "my-secret",
+        "@type": "type.googleapis.com/google.cloud.secretmanager.v1.CreateSecretRequest",
+        "parent": "projects/summer-monument-436716-f5",
+        "secret": {
+          "replication": {
+            "automatic": {}
+          }
+        }
+      },
+      "response": {
+        "replication": {
+          "automatic": {}
+        },
+        "name": "projects/1027693462651/secrets/my-secret",
+        "createTime": "2024-11-04T03:35:44.880939Z",
+        "@type": "type.googleapis.com/google.cloud.secretmanager.v1.Secret"
+      }
+    },
+    "insertId": "1sf3ou8e1ypcu",
+    "resource": {
+      "type": "audited_resource",
+      "labels": {
+        "service": "secretmanager.googleapis.com",
+        "project_id": "summer-monument-436716-f5",
+        "method": "google.cloud.secretmanager.v1.SecretManagerService.CreateSecret"
+      }
+    },
+    "timestamp": "2024-11-04T03:35:44.475367006Z",
+    "severity": "NOTICE",
+    "logName": "projects/summer-monument-436716-f5/logs/cloudaudit.googleapis.com%2Factivity",
+    "receiveTimestamp": "2024-11-04T03:35:45.119366857Z"
+  },
+  {
+    "protoPayload": {
+      "@type": "type.googleapis.com/google.cloud.audit.AuditLog",
+      "authenticationInfo": {
+        "principalEmail": "forhheart5532@gmail.com",
+        "principalSubject": "user:forhheart5532@gmail.com"
+      },
+      "requestMetadata": {
+        "callerIp": "35.185.62.234",
+        "callerSuppliedUserAgent": "google-cloud-sdk gcloud/499.0.0 command/gcloud.secrets.add-iam-policy-binding invocation-id/17272a316d674c18adef002e2f1f4742 environment/devshell environment-version/None client-os/LINUX client-os-ver/6.1.112 client-pltf-arch/x86_64 interactive/True from-script/False python/3.11.9 term/screen (Linux 6.1.112+),gzip(gfe)",
+        "requestAttributes": {
+          "time": "2024-11-04T03:38:03.237176129Z",
+          "auth": {}
+        },
+        "destinationAttributes": {}
+      },
+      "serviceName": "secretmanager.googleapis.com",
+      "methodName": "google.cloud.secretmanager.v1.SecretManagerService.SetIamPolicy",
+      "authorizationInfo": [
+        {
+          "permission": "secretmanager.secrets.setIamPolicy",
+          "granted": true,
+          "resourceAttributes": {
+            "service": "secretmanager.googleapis.com",
+            "name": "projects/1027693462651/secrets/my-secret",
+            "type": "secretmanager.googleapis.com/Secret"
+          },
+          "permissionType": "ADMIN_WRITE"
+        }
+      ],
+      "resourceName": "projects/1027693462651/secrets/my-secret",
+      "request": {
+        "resource": "projects/summer-monument-436716-f5/secrets/my-secret",
+        "policy": {
+          "etag": "ACAB",
+          "bindings": [
+            {
+              "role": "roles/secretmanager.secretAccessor",
+              "members": [
+                "principalSet://iam.googleapis.com/projects/1027693462651/locations/global/workloadIdentityPools/git-action/attribute.repository/pitt-cs-1660/build-and-push-image-Hehua-Fan"
+              ]
+            }
+          ]
+        },
+        "@type": "type.googleapis.com/google.iam.v1.SetIamPolicyRequest"
+      },
+      "response": {
+        "etag": "BwYmDgMSgcE=",
+        "bindings": [
+          {
+            "members": [
+              "principalSet://iam.googleapis.com/projects/1027693462651/locations/global/workloadIdentityPools/git-action/attribute.repository/pitt-cs-1660/build-and-push-image-Hehua-Fan"
+            ],
+            "role": "roles/secretmanager.secretAccessor"
+          }
+        ],
+        "@type": "type.googleapis.com/google.iam.v1.Policy"
+      }
+    },
+    "insertId": "1u2dwqge22ywe",
+    "resource": {
+      "type": "audited_resource",
+      "labels": {
+        "service": "secretmanager.googleapis.com",
+        "method": "google.cloud.secretmanager.v1.SecretManagerService.SetIamPolicy",
+        "project_id": "summer-monument-436716-f5"
+      }
+    },
+    "timestamp": "2024-11-04T03:38:02.623911902Z",
+    "severity": "NOTICE",
+    "logName": "projects/summer-monument-436716-f5/logs/cloudaudit.googleapis.com%2Factivity",
+    "receiveTimestamp": "2024-11-04T03:38:03.244219829Z"
+  },
+  {
+    "protoPayload": {
+      "@type": "type.googleapis.com/google.cloud.audit.AuditLog",
+      "status": {
+        "code": 3,
+        "message": "Identity Pool does not exist (projects/YOUR_PROJECT_NUMBER/locations/global/workloadIdentityPools/git-action). Please check that you specified a valid resource name as returned in the `name` attribute in the configuration API."
+      },
+      "authenticationInfo": {
+        "principalEmail": "forhheart5532@gmail.com",
+        "principalSubject": "user:forhheart5532@gmail.com"
+      },
+      "requestMetadata": {
+        "callerIp": "35.185.62.234",
+        "callerSuppliedUserAgent": "google-cloud-sdk gcloud/499.0.0 command/gcloud.artifacts.repositories.add-iam-policy-binding invocation-id/5e953f72f2d74ed592f2cbf0cc314b4c environment/devshell environment-version/None client-os/LINUX client-os-ver/6.1.112 client-pltf-arch/x86_64 interactive/True from-script/False python/3.11.9 term/screen (Linux 6.1.112+),gzip(gfe),gzip(gfe)",
+        "requestAttributes": {
+          "time": "2024-11-04T03:51:40.764972464Z",
+          "auth": {}
+        },
+        "destinationAttributes": {}
+      },
+      "serviceName": "artifactregistry.googleapis.com",
+      "methodName": "google.devtools.artifactregistry.v1.ArtifactRegistry.SetIamPolicy",
+      "authorizationInfo": [
+        {
+          "resource": "projects/summer-monument-436716-f5/locations/us-east1/repositories/repo-hw3-git-action",
+          "permission": "artifactregistry.repositories.setIamPolicy",
+          "granted": true,
+          "resourceAttributes": {},
+          "permissionType": "ADMIN_WRITE"
+        }
+      ],
+      "resourceName": "projects/summer-monument-436716-f5/locations/us-east1/repositories/repo-hw3-git-action",
+      "request": {
+        "resource": "projects/summer-monument-436716-f5/locations/us-east1/repositories/repo-hw3-git-action",
+        "@type": "type.googleapis.com/google.iam.v1.SetIamPolicyRequest"
+      }
+    },
+    "insertId": "5lup9dd1yo4",
+    "resource": {
+      "type": "audited_resource",
+      "labels": {
+        "service": "artifactregistry.googleapis.com",
+        "method": "google.devtools.artifactregistry.v1.ArtifactRegistry.SetIamPolicy",
+        "project_id": "summer-monument-436716-f5"
+      }
+    },
+    "timestamp": "2024-11-04T03:51:40.758351825Z",
+    "severity": "ERROR",
+    "logName": "projects/summer-monument-436716-f5/logs/cloudaudit.googleapis.com%2Factivity",
+    "receiveTimestamp": "2024-11-04T03:51:41.174885144Z"
+  },
+  {
+    "protoPayload": {
+      "@type": "type.googleapis.com/google.cloud.audit.AuditLog",
+      "authenticationInfo": {
+        "principalEmail": "forhheart5532@gmail.com",
+        "principalSubject": "user:forhheart5532@gmail.com"
+      },
+      "requestMetadata": {
+        "callerIp": "35.185.62.234",
+        "callerSuppliedUserAgent": "google-cloud-sdk gcloud/499.0.0 command/gcloud.artifacts.repositories.add-iam-policy-binding invocation-id/b2ea458f971649149079a8ee41dd8a8c environment/devshell environment-version/None client-os/LINUX client-os-ver/6.1.112 client-pltf-arch/x86_64 interactive/True from-script/False python/3.11.9 term/screen (Linux 6.1.112+),gzip(gfe),gzip(gfe)",
+        "requestAttributes": {
+          "time": "2024-11-04T03:52:11.152764757Z",
+          "auth": {}
+        },
+        "destinationAttributes": {}
+      },
+      "serviceName": "artifactregistry.googleapis.com",
+      "methodName": "google.devtools.artifactregistry.v1.ArtifactRegistry.SetIamPolicy",
+      "authorizationInfo": [
+        {
+          "resource": "projects/summer-monument-436716-f5/locations/us-east1/repositories/repo-hw3-git-action",
+          "permission": "artifactregistry.repositories.setIamPolicy",
+          "granted": true,
+          "resourceAttributes": {},
+          "permissionType": "ADMIN_WRITE"
+        }
+      ],
+      "resourceName": "projects/summer-monument-436716-f5/locations/us-east1/repositories/repo-hw3-git-action",
+      "request": {
+        "@type": "type.googleapis.com/google.iam.v1.SetIamPolicyRequest",
+        "resource": "projects/summer-monument-436716-f5/locations/us-east1/repositories/repo-hw3-git-action"
+      },
+      "response": {
+        "@type": "type.googleapis.com/google.iam.v1.Policy"
+      }
+    },
+    "insertId": "8d6ol8d1x74",
+    "resource": {
+      "type": "audited_resource",
+      "labels": {
+        "project_id": "summer-monument-436716-f5",
+        "service": "artifactregistry.googleapis.com",
+        "method": "google.devtools.artifactregistry.v1.ArtifactRegistry.SetIamPolicy"
+      }
+    },
+    "timestamp": "2024-11-04T03:52:11.144620678Z",
+    "severity": "NOTICE",
+    "logName": "projects/summer-monument-436716-f5/logs/cloudaudit.googleapis.com%2Factivity",
+    "receiveTimestamp": "2024-11-04T03:52:11.605083221Z"
+  }
+]
