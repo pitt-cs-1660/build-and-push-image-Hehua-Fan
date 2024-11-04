@@ -20,11 +20,12 @@ jobs:
         name: Authenticate to GCP
         with:
           project_id: 'summer-monument-436716-f5' # Update with your project ID
-          workload_identity_provider: 'projects/1027693462651/locations/global/workloadIdentityPools/pitt-cs-1660-git-actions-pool/providers/pitt-cs-1660-actions-provider'
+          workload_identity_provider: 'projects/1027693462651/locations/global/workloadIdentityPools/git-action/providers/my-repo'
+          
 
       # configure/login with docker
       - name: gcloud Configure Docker
-        run: gcloud auth configure-docker us-central1-docker.pkg.dev
+        run: gcloud auth configure-docker us-east1-docker.pkg.dev
 
       # setup docker buildx
       - name: Setup docker buildx
@@ -32,19 +33,16 @@ jobs:
         with:
           platforms: linux/amd64,linux/arm64
 
-      - name: Print Identity Token
-        run: echo "$(gcloud auth print-identity-token)"
-
       - name: Build and Push
         uses: docker/build-push-action@v6
         with:
           context: ./
           file: ./Dockerfile
           push: true
-          tags: us-central1-docker.pkg.dev/summer-monument-436716-f5/pitt-cs-1660-build-and-push-image-hehua-fan/my-image:latest
+          tags: us-east1-docker.pkg.dev/summer-monument-436716-f5/repo-hw3-git-action/my-image:latest
 
 # @note: you can use regular docker commands instead of the shared action
       - name: Build and Push Without Buildx
         run: |
-          docker build -t us-central1-docker.pkg.dev/summer-monument-436716-f5/pitt-cs-1660-build-and-push-image-hehua-fan/my-image:v1 .
-          docker push us-central1-docker.pkg.dev/summer-monument-436716-f5/pitt-cs-1660-build-and-push-image-hehua-fan/my-image:v1
+          docker build -t us-east1-docker.pkg.dev/summer-monument-436716-f5/repo-hw3-git-action/my-image:v1 .
+          docker push us-east1-docker.pkg.dev/summer-monument-436716-f5/repo-hw3-git-action/my-image:v1
