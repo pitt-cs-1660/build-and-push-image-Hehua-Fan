@@ -20,8 +20,7 @@ jobs:
         name: Authenticate to GCP
         with:
           project_id: 'summer-monument-436716-f5' # Update with your project ID
-          workload_identity_provider: 'projects/1027693462651/locations/global/workloadIdentityPools/pitt-cs-1660-git-actions-pool/providers/GitHub-Actions-Provider'
-          service_account: 'forhheart5532@gmail.com'
+          workload_identity_provider: 'projects/1027693462651/locations/global/workloadIdentityPools/pitt-cs-1660-git-actions-pool/providers/pitt-cs-1660-actions-provider'
 
       # configure/login with docker
       - name: gcloud Configure Docker
